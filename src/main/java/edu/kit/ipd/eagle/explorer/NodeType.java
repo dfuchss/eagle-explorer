@@ -1,7 +1,7 @@
-package edu.kit.ipd.are.agentanalysis.explorer;
+package edu.kit.ipd.eagle.explorer;
 
-import edu.kit.ipd.are.agentanalysis.port.xplore.IExplorationResult;
-import edu.kit.ipd.are.agentanalysis.port.xplore.layer.ILayerEntry;
+import edu.kit.ipd.eagle.port.xplore.IExplorationResult;
+import edu.kit.ipd.eagle.port.xplore.layer.ILayerEntry;
 
 /**
  * The different node types of the exploration tree in a

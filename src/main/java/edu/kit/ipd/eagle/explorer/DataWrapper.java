@@ -1,4 +1,4 @@
-package edu.kit.ipd.are.agentanalysis.explorer;
+package edu.kit.ipd.eagle.explorer;
 
 import java.util.function.Function;
 

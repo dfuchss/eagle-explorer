@@ -1,4 +1,4 @@
-package edu.kit.ipd.are.agentanalysis.explorer;
+package edu.kit.ipd.eagle.explorer;
 
 import java.awt.EventQueue;
 import java.awt.Font;
@@ -23,8 +23,8 @@ import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
 import javax.swing.WindowConstants;
 
-import edu.kit.ipd.are.agentanalysis.port.xplore.IExplorationResult;
-import edu.kit.ipd.are.agentanalysis.port.xplore.dto.ExplorationResultDTO;
+import edu.kit.ipd.eagle.port.xplore.IExplorationResult;
+import edu.kit.ipd.eagle.port.xplore.dto.ExplorationResultDTO;
 
 /**
  * The main class of the agent analysis explorer.

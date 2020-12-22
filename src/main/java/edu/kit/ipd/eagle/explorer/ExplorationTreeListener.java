@@ -1,4 +1,4 @@
-package edu.kit.ipd.are.agentanalysis.explorer;
+package edu.kit.ipd.eagle.explorer;
 
 import java.awt.GridBagConstraints;
 
@@ -12,9 +12,9 @@ import javax.swing.event.TreeSelectionListener;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.tree.DefaultMutableTreeNode;
 
-import edu.kit.ipd.are.agentanalysis.port.hypothesis.IHypothesesSelection;
-import edu.kit.ipd.are.agentanalysis.port.hypothesis.IHypothesesSet;
-import edu.kit.ipd.are.agentanalysis.port.xplore.layer.ILayerEntry;
+import edu.kit.ipd.eagle.port.hypothesis.IHypothesesSelection;
+import edu.kit.ipd.eagle.port.hypothesis.IHypothesesSet;
+import edu.kit.ipd.eagle.port.xplore.layer.ILayerEntry;
 
 /**
  * Realizes the {@link TreeSelectionListener} which will process the data that
