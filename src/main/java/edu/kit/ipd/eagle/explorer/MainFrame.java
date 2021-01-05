@@ -104,7 +104,7 @@ public final class MainFrame {
 	private void loadExploration(IExplorationResult result) {
 		JTree tree = TreeBuilder.buildTree(this.treePanel, result);
 		new ExplorationTreeListener(tree, this.dataPanel, this.titleForData);
-		this.inputText.setText(result.getInputText());
+		this.inputText.setText(result.getId());
 	}
 
 	private void setToEmptyData() {
