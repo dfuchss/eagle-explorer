@@ -1,5 +1,6 @@
 package edu.kit.ipd.eagle.explorer;
 
+import java.awt.Dimension;
 import java.awt.EventQueue;
 import java.awt.Font;
 import java.awt.GridBagConstraints;
@@ -71,10 +72,14 @@ public final class MainFrame {
 		}
 	}
 
-	private MainFrame() {
+	/**
+	 * @wbp.parser.entryPoint
+	 */
+	public MainFrame() {
 		this.initialize();
 		this.fc = new FileChooser(this.frame, "JSON", "json");
 		this.loadControllers();
+		this.loadFile(new File("D:\\Projects\\KIT\\eagle-explorer\\src\\test\\resources\\test-explore.json"));
 	}
 
 	private void loadControllers() {
@@ -103,7 +108,7 @@ public final class MainFrame {
 
 	private void loadExploration(IExplorationResult result) {
 		JTree tree = TreeBuilder.buildTree(this.treePanel, result);
-		new ExplorationTreeListener(tree, this.dataPanel, this.titleForData);
+		new ExplorationTreeListener(tree, this.treePanel, this.dataPanel, this.titleForData);
 		this.explorationId.setText(result.getId());
 	}
 
@@ -118,10 +123,12 @@ public final class MainFrame {
 		this.frame = new JFrame();
 		this.frame.setTitle(MainFrame.NAME);
 		this.frame.setBounds(100, 100, 800, 650);
+		this.frame.setMinimumSize(new Dimension(800, 650));
 		this.frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+
 		GridBagLayout gridBagLayout = new GridBagLayout();
 		gridBagLayout.columnWeights = new double[] { 1.0 };
-		gridBagLayout.rowWeights = new double[] { 2.0, 1.0, 0.0, 1.0 };
+		gridBagLayout.rowWeights = new double[] { 0.75, 0.1, 0.05, 0.1 };
 		this.frame.getContentPane().setLayout(gridBagLayout);
 
 		this.treePanel = new JPanel();
@@ -141,12 +148,14 @@ public final class MainFrame {
 		this.explorationId.setEnabled(false);
 		this.explorationId.setLineWrap(true);
 
-		GridBagConstraints gbcInputText = new GridBagConstraints();
-		gbcInputText.insets = new Insets(0, 0, 5, 0);
-		gbcInputText.fill = GridBagConstraints.BOTH;
-		gbcInputText.gridx = 0;
-		gbcInputText.gridy = 1;
-		this.frame.getContentPane().add(new JScrollPane(this.explorationId, ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED, ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER), gbcInputText);
+		GridBagConstraints gbcExplorationId = new GridBagConstraints();
+		gbcExplorationId.insets = new Insets(0, 0, 5, 0);
+		gbcExplorationId.fill = GridBagConstraints.BOTH;
+		gbcExplorationId.gridx = 0;
+		gbcExplorationId.gridy = 1;
+		JScrollPane scrollId = new JScrollPane(this.explorationId, ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED, ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+		scrollId.setPreferredSize(new Dimension(this.frame.getWidth(), this.explorationId.getPreferredSize().height));
+		this.frame.getContentPane().add(scrollId, gbcExplorationId);
 		this.explorationId.setColumns(10);
 
 		this.titleForData = new JLabel("");
@@ -158,11 +167,12 @@ public final class MainFrame {
 		this.frame.getContentPane().add(this.titleForData, gbcTitle);
 
 		this.dataPanel = new JPanel();
+		this.dataPanel.setPreferredSize(new Dimension(0, 0));
 		GridBagConstraints gbcDataPanel = new GridBagConstraints();
 		gbcDataPanel.fill = GridBagConstraints.BOTH;
 		gbcDataPanel.gridx = 0;
 		gbcDataPanel.gridy = 3;
-		this.frame.getContentPane().add(new JScrollPane(this.dataPanel, ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED, ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED), gbcDataPanel);
+		this.frame.getContentPane().add(this.dataPanel, gbcDataPanel);
 		GridBagLayout gblDataPanel = new GridBagLayout();
 		gblDataPanel.columnWeights = new double[] { 1.0 };
 		gblDataPanel.rowWeights = new double[] { 1.0 };

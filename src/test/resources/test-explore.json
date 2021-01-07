@@ -1,0 +1,2417 @@
+{
+  "id" : "armar bring the beer from the table",
+  "explorationRoot" : {
+    "hypotheses" : [ {
+      "hypotheses" : [ {
+        "value" : "beer",
+        "prettyInformation" : "Hypothesis [value=beer, score=-284.9240818858625]",
+        "confidence" : -284.9240818858625
+      }, {
+        "value" : "dowry",
+        "prettyInformation" : "Hypothesis [value=dowry, score=-416.22535749721567]",
+        "confidence" : -416.22535749721567
+      }, {
+        "value" : "wheat beer",
+        "prettyInformation" : "Hypothesis [value=wheat beer, score=-422.2375524367763]",
+        "confidence" : -422.2375524367763
+      }, {
+        "value" : "picnic",
+        "prettyInformation" : "Hypothesis [value=picnic, score=-422.530451556563]",
+        "confidence" : -422.530451556563
+      }, {
+        "value" : "lawsuit",
+        "prettyInformation" : "Hypothesis [value=lawsuit, score=-423.5862572718291]",
+        "confidence" : -423.5862572718291
+      } ],
+      "onlyOneHypothesisValid" : true,
+      "hypothesesRange" : "ELEMENT",
+      "elementOfHypotheses" : "beer",
+      "shortInfo" : "beer"
+    }, {
+      "hypotheses" : [ {
+        "value" : "table (furniture)",
+        "prettyInformation" : "Hypothesis [value=table (furniture), score=-287.3093871668294]",
+        "confidence" : -287.3093871668294
+      }, {
+        "value" : "table (database)",
+        "prettyInformation" : "Hypothesis [value=table (database), score=-298.9855779391914]",
+        "confidence" : -298.9855779391914
+      }, {
+        "value" : "table (information)",
+        "prettyInformation" : "Hypothesis [value=table (information), score=-309.5942984089885]",
+        "confidence" : -309.5942984089885
+      }, {
+        "value" : "table (parliamentary procedure)",
+        "prettyInformation" : "Hypothesis [value=table (parliamentary procedure), score=-343.3749508963435]",
+        "confidence" : -343.3749508963435
+      }, {
+        "value" : "table grape",
+        "prettyInformation" : "Hypothesis [value=table grape, score=-352.5698121241313]",
+        "confidence" : -352.5698121241313
+      } ],
+      "onlyOneHypothesisValid" : true,
+      "hypothesesRange" : "ELEMENT",
+      "elementOfHypotheses" : "table",
+      "shortInfo" : "table"
+    } ],
+    "id" : "WikiWSDHypothesisSpec-0",
+    "children" : [ {
+      "hypotheses" : [ {
+        "hypotheses" : [ {
+          "value" : "Furniture",
+          "prettyInformation" : "Furniture",
+          "confidence" : 3.0659510212216153E-4
+        }, {
+          "value" : "Beer",
+          "prettyInformation" : "Beer",
+          "confidence" : 2.4023493992149722E-4
+        }, {
+          "value" : "Fermented drinks",
+          "prettyInformation" : "Fermented drinks",
+          "confidence" : 1.216990277897555E-4
+        }, {
+          "value" : "Tables (furniture)",
+          "prettyInformation" : "Tables (furniture)",
+          "confidence" : 3.823166957459076E-5
+        } ],
+        "shortInfo" : "Topic Hypotheses",
+        "hypothesesRange" : "INPUT",
+        "elementOfHypotheses" : null,
+        "onlyOneHypothesisValid" : false
+      } ],
+      "id" : "TopicExtractionHypothesisSpec-0",
+      "children" : [ {
+        "hypotheses" : [ {
+          "hypotheses" : [ {
+            "ontologyPath" : "src/main/resources/ontology-selector/robot.owl",
+            "description" : "http://www.semanticweb.org/roboapibase",
+            "value" : "http://www.semanticweb.org/roboapibase",
+            "prettyInformation" : "http://www.semanticweb.org/roboapibase",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/virtual_assistant.owl",
+            "description" : "http://www.semanticweb.org/virtual_assistent",
+            "value" : "http://www.semanticweb.org/virtual_assistent",
+            "prettyInformation" : "http://www.semanticweb.org/virtual_assistent",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/lego_mindstorm.owl",
+            "description" : "http://www.semanticweb.org/actor_lego_mindstorm",
+            "value" : "http://www.semanticweb.org/actor_lego_mindstorm",
+            "prettyInformation" : "http://www.semanticweb.org/actor_lego_mindstorm",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/drone.owl",
+            "description" : "http://www.semanticweb.org/actor_drone",
+            "value" : "http://www.semanticweb.org/actor_drone",
+            "prettyInformation" : "http://www.semanticweb.org/actor_drone",
+            "confidence" : 0.0
+          } ],
+          "shortInfo" : "OntologyType: ACTOR",
+          "hypothesesRange" : "INPUT",
+          "elementOfHypotheses" : null,
+          "onlyOneHypothesisValid" : false
+        }, {
+          "hypotheses" : [ {
+            "ontologyPath" : "src/main/resources/ontology-selector/bar.owl",
+            "description" : "http://www.semanticweb.org/environment_bar",
+            "value" : "http://www.semanticweb.org/environment_bar",
+            "prettyInformation" : "http://www.semanticweb.org/environment_bar",
+            "confidence" : 0.18095238095238098
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/laundry.owl",
+            "description" : "http://www.semanticweb.org/environment_laundry",
+            "value" : "http://www.semanticweb.org/environment_laundry",
+            "prettyInformation" : "http://www.semanticweb.org/environment_laundry",
+            "confidence" : 0.1111111111111111
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/bedroom.owl",
+            "description" : "http://www.semanticweb.org/environment_bedroom",
+            "value" : "http://www.semanticweb.org/environment_bedroom",
+            "prettyInformation" : "http://www.semanticweb.org/environment_bedroom",
+            "confidence" : 0.1111111111111111
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/kitchen.owl",
+            "description" : "http://www.semanticweb.org/environment_kitchen",
+            "value" : "http://www.semanticweb.org/environment_kitchen",
+            "prettyInformation" : "http://www.semanticweb.org/environment_kitchen",
+            "confidence" : 0.08333333333333333
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/garden.owl",
+            "description" : "http://www.semanticweb.org/environment_garden",
+            "value" : "http://www.semanticweb.org/environment_garden",
+            "prettyInformation" : "http://www.semanticweb.org/environment_garden",
+            "confidence" : 0.06677329068372652
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/childrens_room.owl",
+            "description" : "http://www.semanticweb.org/environment_childrens_room",
+            "value" : "http://www.semanticweb.org/environment_childrens_room",
+            "prettyInformation" : "http://www.semanticweb.org/environment_childrens_room",
+            "confidence" : 0.05555555555555555
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/music.owl",
+            "description" : "http://www.semanticweb.org/environment_music",
+            "value" : "http://www.semanticweb.org/environment_music",
+            "prettyInformation" : "http://www.semanticweb.org/environment_music",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/heating.owl",
+            "description" : "http://www.semanticweb.org/environment_heating",
+            "value" : "http://www.semanticweb.org/environment_heating",
+            "prettyInformation" : "http://www.semanticweb.org/environment_heating",
+            "confidence" : 0.0
+          } ],
+          "shortInfo" : "OntologyType: ENVIRONMENT",
+          "hypothesesRange" : "INPUT",
+          "elementOfHypotheses" : null,
+          "onlyOneHypothesisValid" : false
+        } ],
+        "id" : "OntologySelectorHypothesisSpec-0",
+        "children" : [ ],
+        "agent" : "OntologySelectorHypothesisSpec",
+        "selectionsFromBefore" : [ {
+          "selectedHypotheses" : [ {
+            "value" : "Furniture",
+            "prettyInformation" : "Furniture",
+            "confidence" : 3.0659510212216153E-4
+          }, {
+            "value" : "Beer",
+            "prettyInformation" : "Beer",
+            "confidence" : 2.4023493992149722E-4
+          }, {
+            "value" : "Fermented drinks",
+            "prettyInformation" : "Fermented drinks",
+            "confidence" : 1.216990277897555E-4
+          } ],
+          "allHypotheses" : {
+            "hypotheses" : [ {
+              "value" : "Furniture",
+              "prettyInformation" : "Furniture",
+              "confidence" : 3.0659510212216153E-4
+            }, {
+              "value" : "Beer",
+              "prettyInformation" : "Beer",
+              "confidence" : 2.4023493992149722E-4
+            }, {
+              "value" : "Fermented drinks",
+              "prettyInformation" : "Fermented drinks",
+              "confidence" : 1.216990277897555E-4
+            }, {
+              "value" : "Tables (furniture)",
+              "prettyInformation" : "Tables (furniture)",
+              "confidence" : 3.823166957459076E-5
+            } ],
+            "shortInfo" : "Topic Hypotheses",
+            "hypothesesRange" : "INPUT",
+            "elementOfHypotheses" : null,
+            "onlyOneHypothesisValid" : false
+          }
+        } ]
+      }, {
+        "hypotheses" : [ {
+          "hypotheses" : [ {
+            "ontologyPath" : "src/main/resources/ontology-selector/robot.owl",
+            "description" : "http://www.semanticweb.org/roboapibase",
+            "value" : "http://www.semanticweb.org/roboapibase",
+            "prettyInformation" : "http://www.semanticweb.org/roboapibase",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/virtual_assistant.owl",
+            "description" : "http://www.semanticweb.org/virtual_assistent",
+            "value" : "http://www.semanticweb.org/virtual_assistent",
+            "prettyInformation" : "http://www.semanticweb.org/virtual_assistent",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/lego_mindstorm.owl",
+            "description" : "http://www.semanticweb.org/actor_lego_mindstorm",
+            "value" : "http://www.semanticweb.org/actor_lego_mindstorm",
+            "prettyInformation" : "http://www.semanticweb.org/actor_lego_mindstorm",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/drone.owl",
+            "description" : "http://www.semanticweb.org/actor_drone",
+            "value" : "http://www.semanticweb.org/actor_drone",
+            "prettyInformation" : "http://www.semanticweb.org/actor_drone",
+            "confidence" : 0.0
+          } ],
+          "shortInfo" : "OntologyType: ACTOR",
+          "hypothesesRange" : "INPUT",
+          "elementOfHypotheses" : null,
+          "onlyOneHypothesisValid" : false
+        }, {
+          "hypotheses" : [ {
+            "ontologyPath" : "src/main/resources/ontology-selector/bar.owl",
+            "description" : "http://www.semanticweb.org/environment_bar",
+            "value" : "http://www.semanticweb.org/environment_bar",
+            "prettyInformation" : "http://www.semanticweb.org/environment_bar",
+            "confidence" : 0.18095238095238098
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/bedroom.owl",
+            "description" : "http://www.semanticweb.org/environment_bedroom",
+            "value" : "http://www.semanticweb.org/environment_bedroom",
+            "prettyInformation" : "http://www.semanticweb.org/environment_bedroom",
+            "confidence" : 0.08333333333333333
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/kitchen.owl",
+            "description" : "http://www.semanticweb.org/environment_kitchen",
+            "value" : "http://www.semanticweb.org/environment_kitchen",
+            "prettyInformation" : "http://www.semanticweb.org/environment_kitchen",
+            "confidence" : 0.06666666666666667
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/garden.owl",
+            "description" : "http://www.semanticweb.org/environment_garden",
+            "value" : "http://www.semanticweb.org/environment_garden",
+            "prettyInformation" : "http://www.semanticweb.org/environment_garden",
+            "confidence" : 0.05555555555555555
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/laundry.owl",
+            "description" : "http://www.semanticweb.org/environment_laundry",
+            "value" : "http://www.semanticweb.org/environment_laundry",
+            "prettyInformation" : "http://www.semanticweb.org/environment_laundry",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/music.owl",
+            "description" : "http://www.semanticweb.org/environment_music",
+            "value" : "http://www.semanticweb.org/environment_music",
+            "prettyInformation" : "http://www.semanticweb.org/environment_music",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/heating.owl",
+            "description" : "http://www.semanticweb.org/environment_heating",
+            "value" : "http://www.semanticweb.org/environment_heating",
+            "prettyInformation" : "http://www.semanticweb.org/environment_heating",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/childrens_room.owl",
+            "description" : "http://www.semanticweb.org/environment_childrens_room",
+            "value" : "http://www.semanticweb.org/environment_childrens_room",
+            "prettyInformation" : "http://www.semanticweb.org/environment_childrens_room",
+            "confidence" : 0.0
+          } ],
+          "shortInfo" : "OntologyType: ENVIRONMENT",
+          "hypothesesRange" : "INPUT",
+          "elementOfHypotheses" : null,
+          "onlyOneHypothesisValid" : false
+        } ],
+        "id" : "OntologySelectorHypothesisSpec-1",
+        "children" : [ ],
+        "agent" : "OntologySelectorHypothesisSpec",
+        "selectionsFromBefore" : [ {
+          "selectedHypotheses" : [ {
+            "value" : "Beer",
+            "prettyInformation" : "Beer",
+            "confidence" : 2.4023493992149722E-4
+          }, {
+            "value" : "Fermented drinks",
+            "prettyInformation" : "Fermented drinks",
+            "confidence" : 1.216990277897555E-4
+          }, {
+            "value" : "Tables (furniture)",
+            "prettyInformation" : "Tables (furniture)",
+            "confidence" : 3.823166957459076E-5
+          } ],
+          "allHypotheses" : {
+            "hypotheses" : [ {
+              "value" : "Furniture",
+              "prettyInformation" : "Furniture",
+              "confidence" : 3.0659510212216153E-4
+            }, {
+              "value" : "Beer",
+              "prettyInformation" : "Beer",
+              "confidence" : 2.4023493992149722E-4
+            }, {
+              "value" : "Fermented drinks",
+              "prettyInformation" : "Fermented drinks",
+              "confidence" : 1.216990277897555E-4
+            }, {
+              "value" : "Tables (furniture)",
+              "prettyInformation" : "Tables (furniture)",
+              "confidence" : 3.823166957459076E-5
+            } ],
+            "shortInfo" : "Topic Hypotheses",
+            "hypothesesRange" : "INPUT",
+            "elementOfHypotheses" : null,
+            "onlyOneHypothesisValid" : false
+          }
+        } ]
+      }, {
+        "hypotheses" : [ {
+          "hypotheses" : [ {
+            "ontologyPath" : "src/main/resources/ontology-selector/robot.owl",
+            "description" : "http://www.semanticweb.org/roboapibase",
+            "value" : "http://www.semanticweb.org/roboapibase",
+            "prettyInformation" : "http://www.semanticweb.org/roboapibase",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/virtual_assistant.owl",
+            "description" : "http://www.semanticweb.org/virtual_assistent",
+            "value" : "http://www.semanticweb.org/virtual_assistent",
+            "prettyInformation" : "http://www.semanticweb.org/virtual_assistent",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/lego_mindstorm.owl",
+            "description" : "http://www.semanticweb.org/actor_lego_mindstorm",
+            "value" : "http://www.semanticweb.org/actor_lego_mindstorm",
+            "prettyInformation" : "http://www.semanticweb.org/actor_lego_mindstorm",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/drone.owl",
+            "description" : "http://www.semanticweb.org/actor_drone",
+            "value" : "http://www.semanticweb.org/actor_drone",
+            "prettyInformation" : "http://www.semanticweb.org/actor_drone",
+            "confidence" : 0.0
+          } ],
+          "shortInfo" : "OntologyType: ACTOR",
+          "hypothesesRange" : "INPUT",
+          "elementOfHypotheses" : null,
+          "onlyOneHypothesisValid" : false
+        }, {
+          "hypotheses" : [ {
+            "ontologyPath" : "src/main/resources/ontology-selector/bar.owl",
+            "description" : "http://www.semanticweb.org/environment_bar",
+            "value" : "http://www.semanticweb.org/environment_bar",
+            "prettyInformation" : "http://www.semanticweb.org/environment_bar",
+            "confidence" : 0.17142857142857143
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/bedroom.owl",
+            "description" : "http://www.semanticweb.org/environment_bedroom",
+            "value" : "http://www.semanticweb.org/environment_bedroom",
+            "prettyInformation" : "http://www.semanticweb.org/environment_bedroom",
+            "confidence" : 0.125
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/kitchen.owl",
+            "description" : "http://www.semanticweb.org/environment_kitchen",
+            "value" : "http://www.semanticweb.org/environment_kitchen",
+            "prettyInformation" : "http://www.semanticweb.org/environment_kitchen",
+            "confidence" : 0.1
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/garden.owl",
+            "description" : "http://www.semanticweb.org/environment_garden",
+            "value" : "http://www.semanticweb.org/environment_garden",
+            "prettyInformation" : "http://www.semanticweb.org/environment_garden",
+            "confidence" : 0.08333333333333333
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/laundry.owl",
+            "description" : "http://www.semanticweb.org/environment_laundry",
+            "value" : "http://www.semanticweb.org/environment_laundry",
+            "prettyInformation" : "http://www.semanticweb.org/environment_laundry",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/music.owl",
+            "description" : "http://www.semanticweb.org/environment_music",
+            "value" : "http://www.semanticweb.org/environment_music",
+            "prettyInformation" : "http://www.semanticweb.org/environment_music",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/heating.owl",
+            "description" : "http://www.semanticweb.org/environment_heating",
+            "value" : "http://www.semanticweb.org/environment_heating",
+            "prettyInformation" : "http://www.semanticweb.org/environment_heating",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/childrens_room.owl",
+            "description" : "http://www.semanticweb.org/environment_childrens_room",
+            "value" : "http://www.semanticweb.org/environment_childrens_room",
+            "prettyInformation" : "http://www.semanticweb.org/environment_childrens_room",
+            "confidence" : 0.0
+          } ],
+          "shortInfo" : "OntologyType: ENVIRONMENT",
+          "hypothesesRange" : "INPUT",
+          "elementOfHypotheses" : null,
+          "onlyOneHypothesisValid" : false
+        } ],
+        "id" : "OntologySelectorHypothesisSpec-2",
+        "children" : [ ],
+        "agent" : "OntologySelectorHypothesisSpec",
+        "selectionsFromBefore" : [ {
+          "selectedHypotheses" : [ {
+            "value" : "Fermented drinks",
+            "prettyInformation" : "Fermented drinks",
+            "confidence" : 1.216990277897555E-4
+          }, {
+            "value" : "Tables (furniture)",
+            "prettyInformation" : "Tables (furniture)",
+            "confidence" : 3.823166957459076E-5
+          } ],
+          "allHypotheses" : {
+            "hypotheses" : [ {
+              "value" : "Furniture",
+              "prettyInformation" : "Furniture",
+              "confidence" : 3.0659510212216153E-4
+            }, {
+              "value" : "Beer",
+              "prettyInformation" : "Beer",
+              "confidence" : 2.4023493992149722E-4
+            }, {
+              "value" : "Fermented drinks",
+              "prettyInformation" : "Fermented drinks",
+              "confidence" : 1.216990277897555E-4
+            }, {
+              "value" : "Tables (furniture)",
+              "prettyInformation" : "Tables (furniture)",
+              "confidence" : 3.823166957459076E-5
+            } ],
+            "shortInfo" : "Topic Hypotheses",
+            "hypothesesRange" : "INPUT",
+            "elementOfHypotheses" : null,
+            "onlyOneHypothesisValid" : false
+          }
+        } ]
+      } ],
+      "agent" : "TopicExtractionHypothesisSpec",
+      "selectionsFromBefore" : [ {
+        "selectedHypotheses" : [ {
+          "value" : "table (furniture)",
+          "prettyInformation" : "Hypothesis [value=table (furniture), score=-287.3093871668294]",
+          "confidence" : -287.3093871668294
+        } ],
+        "allHypotheses" : {
+          "hypotheses" : [ {
+            "value" : "table (furniture)",
+            "prettyInformation" : "Hypothesis [value=table (furniture), score=-287.3093871668294]",
+            "confidence" : -287.3093871668294
+          }, {
+            "value" : "table (database)",
+            "prettyInformation" : "Hypothesis [value=table (database), score=-298.9855779391914]",
+            "confidence" : -298.9855779391914
+          }, {
+            "value" : "table (information)",
+            "prettyInformation" : "Hypothesis [value=table (information), score=-309.5942984089885]",
+            "confidence" : -309.5942984089885
+          }, {
+            "value" : "table (parliamentary procedure)",
+            "prettyInformation" : "Hypothesis [value=table (parliamentary procedure), score=-343.3749508963435]",
+            "confidence" : -343.3749508963435
+          }, {
+            "value" : "table grape",
+            "prettyInformation" : "Hypothesis [value=table grape, score=-352.5698121241313]",
+            "confidence" : -352.5698121241313
+          } ],
+          "onlyOneHypothesisValid" : true,
+          "hypothesesRange" : "ELEMENT",
+          "elementOfHypotheses" : "table",
+          "shortInfo" : "table"
+        }
+      }, {
+        "selectedHypotheses" : [ {
+          "value" : "beer",
+          "prettyInformation" : "Hypothesis [value=beer, score=-284.9240818858625]",
+          "confidence" : -284.9240818858625
+        } ],
+        "allHypotheses" : {
+          "hypotheses" : [ {
+            "value" : "beer",
+            "prettyInformation" : "Hypothesis [value=beer, score=-284.9240818858625]",
+            "confidence" : -284.9240818858625
+          }, {
+            "value" : "dowry",
+            "prettyInformation" : "Hypothesis [value=dowry, score=-416.22535749721567]",
+            "confidence" : -416.22535749721567
+          }, {
+            "value" : "wheat beer",
+            "prettyInformation" : "Hypothesis [value=wheat beer, score=-422.2375524367763]",
+            "confidence" : -422.2375524367763
+          }, {
+            "value" : "picnic",
+            "prettyInformation" : "Hypothesis [value=picnic, score=-422.530451556563]",
+            "confidence" : -422.530451556563
+          }, {
+            "value" : "lawsuit",
+            "prettyInformation" : "Hypothesis [value=lawsuit, score=-423.5862572718291]",
+            "confidence" : -423.5862572718291
+          } ],
+          "onlyOneHypothesisValid" : true,
+          "hypothesesRange" : "ELEMENT",
+          "elementOfHypotheses" : "beer",
+          "shortInfo" : "beer"
+        }
+      } ]
+    }, {
+      "hypotheses" : [ {
+        "hypotheses" : [ {
+          "value" : "Means",
+          "prettyInformation" : "Means",
+          "confidence" : 9.085387334178837E-5
+        }, {
+          "value" : "Infographics",
+          "prettyInformation" : "Infographics",
+          "confidence" : 3.360458528693274E-5
+        }, {
+          "value" : "Beer styles",
+          "prettyInformation" : "Beer styles",
+          "confidence" : 1.0396834923378905E-5
+        }, {
+          "value" : "Wheat beer",
+          "prettyInformation" : "Wheat beer",
+          "confidence" : 6.409371306037809E-6
+        } ],
+        "shortInfo" : "Topic Hypotheses",
+        "hypothesesRange" : "INPUT",
+        "elementOfHypotheses" : null,
+        "onlyOneHypothesisValid" : false
+      } ],
+      "id" : "TopicExtractionHypothesisSpec-2",
+      "children" : [ {
+        "hypotheses" : [ {
+          "hypotheses" : [ {
+            "ontologyPath" : "src/main/resources/ontology-selector/robot.owl",
+            "description" : "http://www.semanticweb.org/roboapibase",
+            "value" : "http://www.semanticweb.org/roboapibase",
+            "prettyInformation" : "http://www.semanticweb.org/roboapibase",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/virtual_assistant.owl",
+            "description" : "http://www.semanticweb.org/virtual_assistent",
+            "value" : "http://www.semanticweb.org/virtual_assistent",
+            "prettyInformation" : "http://www.semanticweb.org/virtual_assistent",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/lego_mindstorm.owl",
+            "description" : "http://www.semanticweb.org/actor_lego_mindstorm",
+            "value" : "http://www.semanticweb.org/actor_lego_mindstorm",
+            "prettyInformation" : "http://www.semanticweb.org/actor_lego_mindstorm",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/drone.owl",
+            "description" : "http://www.semanticweb.org/actor_drone",
+            "value" : "http://www.semanticweb.org/actor_drone",
+            "prettyInformation" : "http://www.semanticweb.org/actor_drone",
+            "confidence" : 0.0
+          } ],
+          "shortInfo" : "OntologyType: ACTOR",
+          "hypothesesRange" : "INPUT",
+          "elementOfHypotheses" : null,
+          "onlyOneHypothesisValid" : false
+        }, {
+          "hypotheses" : [ {
+            "ontologyPath" : "src/main/resources/ontology-selector/bar.owl",
+            "description" : "http://www.semanticweb.org/environment_bar",
+            "value" : "http://www.semanticweb.org/environment_bar",
+            "prettyInformation" : "http://www.semanticweb.org/environment_bar",
+            "confidence" : 0.1111111111111111
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/kitchen.owl",
+            "description" : "http://www.semanticweb.org/environment_kitchen",
+            "value" : "http://www.semanticweb.org/environment_kitchen",
+            "prettyInformation" : "http://www.semanticweb.org/environment_kitchen",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/garden.owl",
+            "description" : "http://www.semanticweb.org/environment_garden",
+            "value" : "http://www.semanticweb.org/environment_garden",
+            "prettyInformation" : "http://www.semanticweb.org/environment_garden",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/laundry.owl",
+            "description" : "http://www.semanticweb.org/environment_laundry",
+            "value" : "http://www.semanticweb.org/environment_laundry",
+            "prettyInformation" : "http://www.semanticweb.org/environment_laundry",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/music.owl",
+            "description" : "http://www.semanticweb.org/environment_music",
+            "value" : "http://www.semanticweb.org/environment_music",
+            "prettyInformation" : "http://www.semanticweb.org/environment_music",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/bedroom.owl",
+            "description" : "http://www.semanticweb.org/environment_bedroom",
+            "value" : "http://www.semanticweb.org/environment_bedroom",
+            "prettyInformation" : "http://www.semanticweb.org/environment_bedroom",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/heating.owl",
+            "description" : "http://www.semanticweb.org/environment_heating",
+            "value" : "http://www.semanticweb.org/environment_heating",
+            "prettyInformation" : "http://www.semanticweb.org/environment_heating",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/childrens_room.owl",
+            "description" : "http://www.semanticweb.org/environment_childrens_room",
+            "value" : "http://www.semanticweb.org/environment_childrens_room",
+            "prettyInformation" : "http://www.semanticweb.org/environment_childrens_room",
+            "confidence" : 0.0
+          } ],
+          "shortInfo" : "OntologyType: ENVIRONMENT",
+          "hypothesesRange" : "INPUT",
+          "elementOfHypotheses" : null,
+          "onlyOneHypothesisValid" : false
+        } ],
+        "id" : "OntologySelectorHypothesisSpec-7",
+        "children" : [ ],
+        "agent" : "OntologySelectorHypothesisSpec",
+        "selectionsFromBefore" : [ {
+          "selectedHypotheses" : [ {
+            "value" : "Infographics",
+            "prettyInformation" : "Infographics",
+            "confidence" : 3.360458528693274E-5
+          }, {
+            "value" : "Beer styles",
+            "prettyInformation" : "Beer styles",
+            "confidence" : 1.0396834923378905E-5
+          }, {
+            "value" : "Wheat beer",
+            "prettyInformation" : "Wheat beer",
+            "confidence" : 6.409371306037809E-6
+          } ],
+          "allHypotheses" : {
+            "hypotheses" : [ {
+              "value" : "Means",
+              "prettyInformation" : "Means",
+              "confidence" : 9.085387334178837E-5
+            }, {
+              "value" : "Infographics",
+              "prettyInformation" : "Infographics",
+              "confidence" : 3.360458528693274E-5
+            }, {
+              "value" : "Beer styles",
+              "prettyInformation" : "Beer styles",
+              "confidence" : 1.0396834923378905E-5
+            }, {
+              "value" : "Wheat beer",
+              "prettyInformation" : "Wheat beer",
+              "confidence" : 6.409371306037809E-6
+            } ],
+            "shortInfo" : "Topic Hypotheses",
+            "hypothesesRange" : "INPUT",
+            "elementOfHypotheses" : null,
+            "onlyOneHypothesisValid" : false
+          }
+        } ]
+      }, {
+        "hypotheses" : [ {
+          "hypotheses" : [ {
+            "ontologyPath" : "src/main/resources/ontology-selector/robot.owl",
+            "description" : "http://www.semanticweb.org/roboapibase",
+            "value" : "http://www.semanticweb.org/roboapibase",
+            "prettyInformation" : "http://www.semanticweb.org/roboapibase",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/virtual_assistant.owl",
+            "description" : "http://www.semanticweb.org/virtual_assistent",
+            "value" : "http://www.semanticweb.org/virtual_assistent",
+            "prettyInformation" : "http://www.semanticweb.org/virtual_assistent",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/lego_mindstorm.owl",
+            "description" : "http://www.semanticweb.org/actor_lego_mindstorm",
+            "value" : "http://www.semanticweb.org/actor_lego_mindstorm",
+            "prettyInformation" : "http://www.semanticweb.org/actor_lego_mindstorm",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/drone.owl",
+            "description" : "http://www.semanticweb.org/actor_drone",
+            "value" : "http://www.semanticweb.org/actor_drone",
+            "prettyInformation" : "http://www.semanticweb.org/actor_drone",
+            "confidence" : 0.0
+          } ],
+          "shortInfo" : "OntologyType: ACTOR",
+          "hypothesesRange" : "INPUT",
+          "elementOfHypotheses" : null,
+          "onlyOneHypothesisValid" : false
+        }, {
+          "hypotheses" : [ {
+            "ontologyPath" : "src/main/resources/ontology-selector/bar.owl",
+            "description" : "http://www.semanticweb.org/environment_bar",
+            "value" : "http://www.semanticweb.org/environment_bar",
+            "prettyInformation" : "http://www.semanticweb.org/environment_bar",
+            "confidence" : 0.16666666666666666
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/kitchen.owl",
+            "description" : "http://www.semanticweb.org/environment_kitchen",
+            "value" : "http://www.semanticweb.org/environment_kitchen",
+            "prettyInformation" : "http://www.semanticweb.org/environment_kitchen",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/garden.owl",
+            "description" : "http://www.semanticweb.org/environment_garden",
+            "value" : "http://www.semanticweb.org/environment_garden",
+            "prettyInformation" : "http://www.semanticweb.org/environment_garden",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/laundry.owl",
+            "description" : "http://www.semanticweb.org/environment_laundry",
+            "value" : "http://www.semanticweb.org/environment_laundry",
+            "prettyInformation" : "http://www.semanticweb.org/environment_laundry",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/music.owl",
+            "description" : "http://www.semanticweb.org/environment_music",
+            "value" : "http://www.semanticweb.org/environment_music",
+            "prettyInformation" : "http://www.semanticweb.org/environment_music",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/bedroom.owl",
+            "description" : "http://www.semanticweb.org/environment_bedroom",
+            "value" : "http://www.semanticweb.org/environment_bedroom",
+            "prettyInformation" : "http://www.semanticweb.org/environment_bedroom",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/heating.owl",
+            "description" : "http://www.semanticweb.org/environment_heating",
+            "value" : "http://www.semanticweb.org/environment_heating",
+            "prettyInformation" : "http://www.semanticweb.org/environment_heating",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/childrens_room.owl",
+            "description" : "http://www.semanticweb.org/environment_childrens_room",
+            "value" : "http://www.semanticweb.org/environment_childrens_room",
+            "prettyInformation" : "http://www.semanticweb.org/environment_childrens_room",
+            "confidence" : 0.0
+          } ],
+          "shortInfo" : "OntologyType: ENVIRONMENT",
+          "hypothesesRange" : "INPUT",
+          "elementOfHypotheses" : null,
+          "onlyOneHypothesisValid" : false
+        } ],
+        "id" : "OntologySelectorHypothesisSpec-8",
+        "children" : [ ],
+        "agent" : "OntologySelectorHypothesisSpec",
+        "selectionsFromBefore" : [ {
+          "selectedHypotheses" : [ {
+            "value" : "Beer styles",
+            "prettyInformation" : "Beer styles",
+            "confidence" : 1.0396834923378905E-5
+          }, {
+            "value" : "Wheat beer",
+            "prettyInformation" : "Wheat beer",
+            "confidence" : 6.409371306037809E-6
+          } ],
+          "allHypotheses" : {
+            "hypotheses" : [ {
+              "value" : "Means",
+              "prettyInformation" : "Means",
+              "confidence" : 9.085387334178837E-5
+            }, {
+              "value" : "Infographics",
+              "prettyInformation" : "Infographics",
+              "confidence" : 3.360458528693274E-5
+            }, {
+              "value" : "Beer styles",
+              "prettyInformation" : "Beer styles",
+              "confidence" : 1.0396834923378905E-5
+            }, {
+              "value" : "Wheat beer",
+              "prettyInformation" : "Wheat beer",
+              "confidence" : 6.409371306037809E-6
+            } ],
+            "shortInfo" : "Topic Hypotheses",
+            "hypothesesRange" : "INPUT",
+            "elementOfHypotheses" : null,
+            "onlyOneHypothesisValid" : false
+          }
+        } ]
+      }, {
+        "hypotheses" : [ {
+          "hypotheses" : [ {
+            "ontologyPath" : "src/main/resources/ontology-selector/robot.owl",
+            "description" : "http://www.semanticweb.org/roboapibase",
+            "value" : "http://www.semanticweb.org/roboapibase",
+            "prettyInformation" : "http://www.semanticweb.org/roboapibase",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/virtual_assistant.owl",
+            "description" : "http://www.semanticweb.org/virtual_assistent",
+            "value" : "http://www.semanticweb.org/virtual_assistent",
+            "prettyInformation" : "http://www.semanticweb.org/virtual_assistent",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/lego_mindstorm.owl",
+            "description" : "http://www.semanticweb.org/actor_lego_mindstorm",
+            "value" : "http://www.semanticweb.org/actor_lego_mindstorm",
+            "prettyInformation" : "http://www.semanticweb.org/actor_lego_mindstorm",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/drone.owl",
+            "description" : "http://www.semanticweb.org/actor_drone",
+            "value" : "http://www.semanticweb.org/actor_drone",
+            "prettyInformation" : "http://www.semanticweb.org/actor_drone",
+            "confidence" : 0.0
+          } ],
+          "shortInfo" : "OntologyType: ACTOR",
+          "hypothesesRange" : "INPUT",
+          "elementOfHypotheses" : null,
+          "onlyOneHypothesisValid" : false
+        }, {
+          "hypotheses" : [ {
+            "ontologyPath" : "src/main/resources/ontology-selector/bar.owl",
+            "description" : "http://www.semanticweb.org/environment_bar",
+            "value" : "http://www.semanticweb.org/environment_bar",
+            "prettyInformation" : "http://www.semanticweb.org/environment_bar",
+            "confidence" : 0.05555555555555555
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/kitchen.owl",
+            "description" : "http://www.semanticweb.org/environment_kitchen",
+            "value" : "http://www.semanticweb.org/environment_kitchen",
+            "prettyInformation" : "http://www.semanticweb.org/environment_kitchen",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/garden.owl",
+            "description" : "http://www.semanticweb.org/environment_garden",
+            "value" : "http://www.semanticweb.org/environment_garden",
+            "prettyInformation" : "http://www.semanticweb.org/environment_garden",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/laundry.owl",
+            "description" : "http://www.semanticweb.org/environment_laundry",
+            "value" : "http://www.semanticweb.org/environment_laundry",
+            "prettyInformation" : "http://www.semanticweb.org/environment_laundry",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/music.owl",
+            "description" : "http://www.semanticweb.org/environment_music",
+            "value" : "http://www.semanticweb.org/environment_music",
+            "prettyInformation" : "http://www.semanticweb.org/environment_music",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/bedroom.owl",
+            "description" : "http://www.semanticweb.org/environment_bedroom",
+            "value" : "http://www.semanticweb.org/environment_bedroom",
+            "prettyInformation" : "http://www.semanticweb.org/environment_bedroom",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/heating.owl",
+            "description" : "http://www.semanticweb.org/environment_heating",
+            "value" : "http://www.semanticweb.org/environment_heating",
+            "prettyInformation" : "http://www.semanticweb.org/environment_heating",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/childrens_room.owl",
+            "description" : "http://www.semanticweb.org/environment_childrens_room",
+            "value" : "http://www.semanticweb.org/environment_childrens_room",
+            "prettyInformation" : "http://www.semanticweb.org/environment_childrens_room",
+            "confidence" : 0.0
+          } ],
+          "shortInfo" : "OntologyType: ENVIRONMENT",
+          "hypothesesRange" : "INPUT",
+          "elementOfHypotheses" : null,
+          "onlyOneHypothesisValid" : false
+        } ],
+        "id" : "OntologySelectorHypothesisSpec-6",
+        "children" : [ ],
+        "agent" : "OntologySelectorHypothesisSpec",
+        "selectionsFromBefore" : [ {
+          "selectedHypotheses" : [ {
+            "value" : "Means",
+            "prettyInformation" : "Means",
+            "confidence" : 9.085387334178837E-5
+          }, {
+            "value" : "Infographics",
+            "prettyInformation" : "Infographics",
+            "confidence" : 3.360458528693274E-5
+          }, {
+            "value" : "Beer styles",
+            "prettyInformation" : "Beer styles",
+            "confidence" : 1.0396834923378905E-5
+          } ],
+          "allHypotheses" : {
+            "hypotheses" : [ {
+              "value" : "Means",
+              "prettyInformation" : "Means",
+              "confidence" : 9.085387334178837E-5
+            }, {
+              "value" : "Infographics",
+              "prettyInformation" : "Infographics",
+              "confidence" : 3.360458528693274E-5
+            }, {
+              "value" : "Beer styles",
+              "prettyInformation" : "Beer styles",
+              "confidence" : 1.0396834923378905E-5
+            }, {
+              "value" : "Wheat beer",
+              "prettyInformation" : "Wheat beer",
+              "confidence" : 6.409371306037809E-6
+            } ],
+            "shortInfo" : "Topic Hypotheses",
+            "hypothesesRange" : "INPUT",
+            "elementOfHypotheses" : null,
+            "onlyOneHypothesisValid" : false
+          }
+        } ]
+      } ],
+      "agent" : "TopicExtractionHypothesisSpec",
+      "selectionsFromBefore" : [ {
+        "selectedHypotheses" : [ {
+          "value" : "table (information)",
+          "prettyInformation" : "Hypothesis [value=table (information), score=-309.5942984089885]",
+          "confidence" : -309.5942984089885
+        } ],
+        "allHypotheses" : {
+          "hypotheses" : [ {
+            "value" : "table (furniture)",
+            "prettyInformation" : "Hypothesis [value=table (furniture), score=-287.3093871668294]",
+            "confidence" : -287.3093871668294
+          }, {
+            "value" : "table (database)",
+            "prettyInformation" : "Hypothesis [value=table (database), score=-298.9855779391914]",
+            "confidence" : -298.9855779391914
+          }, {
+            "value" : "table (information)",
+            "prettyInformation" : "Hypothesis [value=table (information), score=-309.5942984089885]",
+            "confidence" : -309.5942984089885
+          }, {
+            "value" : "table (parliamentary procedure)",
+            "prettyInformation" : "Hypothesis [value=table (parliamentary procedure), score=-343.3749508963435]",
+            "confidence" : -343.3749508963435
+          }, {
+            "value" : "table grape",
+            "prettyInformation" : "Hypothesis [value=table grape, score=-352.5698121241313]",
+            "confidence" : -352.5698121241313
+          } ],
+          "onlyOneHypothesisValid" : true,
+          "hypothesesRange" : "ELEMENT",
+          "elementOfHypotheses" : "table",
+          "shortInfo" : "table"
+        }
+      }, {
+        "selectedHypotheses" : [ {
+          "value" : "wheat beer",
+          "prettyInformation" : "Hypothesis [value=wheat beer, score=-422.2375524367763]",
+          "confidence" : -422.2375524367763
+        } ],
+        "allHypotheses" : {
+          "hypotheses" : [ {
+            "value" : "beer",
+            "prettyInformation" : "Hypothesis [value=beer, score=-284.9240818858625]",
+            "confidence" : -284.9240818858625
+          }, {
+            "value" : "dowry",
+            "prettyInformation" : "Hypothesis [value=dowry, score=-416.22535749721567]",
+            "confidence" : -416.22535749721567
+          }, {
+            "value" : "wheat beer",
+            "prettyInformation" : "Hypothesis [value=wheat beer, score=-422.2375524367763]",
+            "confidence" : -422.2375524367763
+          }, {
+            "value" : "picnic",
+            "prettyInformation" : "Hypothesis [value=picnic, score=-422.530451556563]",
+            "confidence" : -422.530451556563
+          }, {
+            "value" : "lawsuit",
+            "prettyInformation" : "Hypothesis [value=lawsuit, score=-423.5862572718291]",
+            "confidence" : -423.5862572718291
+          } ],
+          "onlyOneHypothesisValid" : true,
+          "hypothesesRange" : "ELEMENT",
+          "elementOfHypotheses" : "beer",
+          "shortInfo" : "beer"
+        }
+      } ]
+    }, {
+      "hypotheses" : [ {
+        "hypotheses" : [ {
+          "value" : "Marriage",
+          "prettyInformation" : "Marriage",
+          "confidence" : 2.1390361123476272E-4
+        }, {
+          "value" : "Data modeling",
+          "prettyInformation" : "Data modeling",
+          "confidence" : 1.6504801341633298E-4
+        }, {
+          "value" : "Transfer",
+          "prettyInformation" : "Transfer",
+          "confidence" : 1.1885373486178774E-4
+        }, {
+          "value" : "SQL",
+          "prettyInformation" : "SQL",
+          "confidence" : 6.636106382328249E-5
+        } ],
+        "shortInfo" : "Topic Hypotheses",
+        "hypothesesRange" : "INPUT",
+        "elementOfHypotheses" : null,
+        "onlyOneHypothesisValid" : false
+      } ],
+      "id" : "TopicExtractionHypothesisSpec-1",
+      "children" : [ {
+        "hypotheses" : [ {
+          "hypotheses" : [ {
+            "ontologyPath" : "src/main/resources/ontology-selector/robot.owl",
+            "description" : "http://www.semanticweb.org/roboapibase",
+            "value" : "http://www.semanticweb.org/roboapibase",
+            "prettyInformation" : "http://www.semanticweb.org/roboapibase",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/virtual_assistant.owl",
+            "description" : "http://www.semanticweb.org/virtual_assistent",
+            "value" : "http://www.semanticweb.org/virtual_assistent",
+            "prettyInformation" : "http://www.semanticweb.org/virtual_assistent",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/lego_mindstorm.owl",
+            "description" : "http://www.semanticweb.org/actor_lego_mindstorm",
+            "value" : "http://www.semanticweb.org/actor_lego_mindstorm",
+            "prettyInformation" : "http://www.semanticweb.org/actor_lego_mindstorm",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/drone.owl",
+            "description" : "http://www.semanticweb.org/actor_drone",
+            "value" : "http://www.semanticweb.org/actor_drone",
+            "prettyInformation" : "http://www.semanticweb.org/actor_drone",
+            "confidence" : 0.0
+          } ],
+          "shortInfo" : "OntologyType: ACTOR",
+          "hypothesesRange" : "INPUT",
+          "elementOfHypotheses" : null,
+          "onlyOneHypothesisValid" : false
+        }, {
+          "hypotheses" : [ {
+            "ontologyPath" : "src/main/resources/ontology-selector/heating.owl",
+            "description" : "http://www.semanticweb.org/environment_heating",
+            "value" : "http://www.semanticweb.org/environment_heating",
+            "prettyInformation" : "http://www.semanticweb.org/environment_heating",
+            "confidence" : 0.06666666666666667
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/kitchen.owl",
+            "description" : "http://www.semanticweb.org/environment_kitchen",
+            "value" : "http://www.semanticweb.org/environment_kitchen",
+            "prettyInformation" : "http://www.semanticweb.org/environment_kitchen",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/garden.owl",
+            "description" : "http://www.semanticweb.org/environment_garden",
+            "value" : "http://www.semanticweb.org/environment_garden",
+            "prettyInformation" : "http://www.semanticweb.org/environment_garden",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/bar.owl",
+            "description" : "http://www.semanticweb.org/environment_bar",
+            "value" : "http://www.semanticweb.org/environment_bar",
+            "prettyInformation" : "http://www.semanticweb.org/environment_bar",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/laundry.owl",
+            "description" : "http://www.semanticweb.org/environment_laundry",
+            "value" : "http://www.semanticweb.org/environment_laundry",
+            "prettyInformation" : "http://www.semanticweb.org/environment_laundry",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/music.owl",
+            "description" : "http://www.semanticweb.org/environment_music",
+            "value" : "http://www.semanticweb.org/environment_music",
+            "prettyInformation" : "http://www.semanticweb.org/environment_music",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/bedroom.owl",
+            "description" : "http://www.semanticweb.org/environment_bedroom",
+            "value" : "http://www.semanticweb.org/environment_bedroom",
+            "prettyInformation" : "http://www.semanticweb.org/environment_bedroom",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/childrens_room.owl",
+            "description" : "http://www.semanticweb.org/environment_childrens_room",
+            "value" : "http://www.semanticweb.org/environment_childrens_room",
+            "prettyInformation" : "http://www.semanticweb.org/environment_childrens_room",
+            "confidence" : 0.0
+          } ],
+          "shortInfo" : "OntologyType: ENVIRONMENT",
+          "hypothesesRange" : "INPUT",
+          "elementOfHypotheses" : null,
+          "onlyOneHypothesisValid" : false
+        } ],
+        "id" : "OntologySelectorHypothesisSpec-3",
+        "children" : [ ],
+        "agent" : "OntologySelectorHypothesisSpec",
+        "selectionsFromBefore" : [ {
+          "selectedHypotheses" : [ {
+            "value" : "Marriage",
+            "prettyInformation" : "Marriage",
+            "confidence" : 2.1390361123476272E-4
+          }, {
+            "value" : "Data modeling",
+            "prettyInformation" : "Data modeling",
+            "confidence" : 1.6504801341633298E-4
+          }, {
+            "value" : "Transfer",
+            "prettyInformation" : "Transfer",
+            "confidence" : 1.1885373486178774E-4
+          } ],
+          "allHypotheses" : {
+            "hypotheses" : [ {
+              "value" : "Marriage",
+              "prettyInformation" : "Marriage",
+              "confidence" : 2.1390361123476272E-4
+            }, {
+              "value" : "Data modeling",
+              "prettyInformation" : "Data modeling",
+              "confidence" : 1.6504801341633298E-4
+            }, {
+              "value" : "Transfer",
+              "prettyInformation" : "Transfer",
+              "confidence" : 1.1885373486178774E-4
+            }, {
+              "value" : "SQL",
+              "prettyInformation" : "SQL",
+              "confidence" : 6.636106382328249E-5
+            } ],
+            "shortInfo" : "Topic Hypotheses",
+            "hypothesesRange" : "INPUT",
+            "elementOfHypotheses" : null,
+            "onlyOneHypothesisValid" : false
+          }
+        } ]
+      }, {
+        "hypotheses" : [ {
+          "hypotheses" : [ {
+            "ontologyPath" : "src/main/resources/ontology-selector/robot.owl",
+            "description" : "http://www.semanticweb.org/roboapibase",
+            "value" : "http://www.semanticweb.org/roboapibase",
+            "prettyInformation" : "http://www.semanticweb.org/roboapibase",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/virtual_assistant.owl",
+            "description" : "http://www.semanticweb.org/virtual_assistent",
+            "value" : "http://www.semanticweb.org/virtual_assistent",
+            "prettyInformation" : "http://www.semanticweb.org/virtual_assistent",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/lego_mindstorm.owl",
+            "description" : "http://www.semanticweb.org/actor_lego_mindstorm",
+            "value" : "http://www.semanticweb.org/actor_lego_mindstorm",
+            "prettyInformation" : "http://www.semanticweb.org/actor_lego_mindstorm",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/drone.owl",
+            "description" : "http://www.semanticweb.org/actor_drone",
+            "value" : "http://www.semanticweb.org/actor_drone",
+            "prettyInformation" : "http://www.semanticweb.org/actor_drone",
+            "confidence" : 0.0
+          } ],
+          "shortInfo" : "OntologyType: ACTOR",
+          "hypothesesRange" : "INPUT",
+          "elementOfHypotheses" : null,
+          "onlyOneHypothesisValid" : false
+        }, {
+          "hypotheses" : [ {
+            "ontologyPath" : "src/main/resources/ontology-selector/heating.owl",
+            "description" : "http://www.semanticweb.org/environment_heating",
+            "value" : "http://www.semanticweb.org/environment_heating",
+            "prettyInformation" : "http://www.semanticweb.org/environment_heating",
+            "confidence" : 0.06666666666666667
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/kitchen.owl",
+            "description" : "http://www.semanticweb.org/environment_kitchen",
+            "value" : "http://www.semanticweb.org/environment_kitchen",
+            "prettyInformation" : "http://www.semanticweb.org/environment_kitchen",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/garden.owl",
+            "description" : "http://www.semanticweb.org/environment_garden",
+            "value" : "http://www.semanticweb.org/environment_garden",
+            "prettyInformation" : "http://www.semanticweb.org/environment_garden",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/bar.owl",
+            "description" : "http://www.semanticweb.org/environment_bar",
+            "value" : "http://www.semanticweb.org/environment_bar",
+            "prettyInformation" : "http://www.semanticweb.org/environment_bar",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/laundry.owl",
+            "description" : "http://www.semanticweb.org/environment_laundry",
+            "value" : "http://www.semanticweb.org/environment_laundry",
+            "prettyInformation" : "http://www.semanticweb.org/environment_laundry",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/music.owl",
+            "description" : "http://www.semanticweb.org/environment_music",
+            "value" : "http://www.semanticweb.org/environment_music",
+            "prettyInformation" : "http://www.semanticweb.org/environment_music",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/bedroom.owl",
+            "description" : "http://www.semanticweb.org/environment_bedroom",
+            "value" : "http://www.semanticweb.org/environment_bedroom",
+            "prettyInformation" : "http://www.semanticweb.org/environment_bedroom",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/childrens_room.owl",
+            "description" : "http://www.semanticweb.org/environment_childrens_room",
+            "value" : "http://www.semanticweb.org/environment_childrens_room",
+            "prettyInformation" : "http://www.semanticweb.org/environment_childrens_room",
+            "confidence" : 0.0
+          } ],
+          "shortInfo" : "OntologyType: ENVIRONMENT",
+          "hypothesesRange" : "INPUT",
+          "elementOfHypotheses" : null,
+          "onlyOneHypothesisValid" : false
+        } ],
+        "id" : "OntologySelectorHypothesisSpec-4",
+        "children" : [ ],
+        "agent" : "OntologySelectorHypothesisSpec",
+        "selectionsFromBefore" : [ {
+          "selectedHypotheses" : [ {
+            "value" : "Data modeling",
+            "prettyInformation" : "Data modeling",
+            "confidence" : 1.6504801341633298E-4
+          }, {
+            "value" : "Transfer",
+            "prettyInformation" : "Transfer",
+            "confidence" : 1.1885373486178774E-4
+          }, {
+            "value" : "SQL",
+            "prettyInformation" : "SQL",
+            "confidence" : 6.636106382328249E-5
+          } ],
+          "allHypotheses" : {
+            "hypotheses" : [ {
+              "value" : "Marriage",
+              "prettyInformation" : "Marriage",
+              "confidence" : 2.1390361123476272E-4
+            }, {
+              "value" : "Data modeling",
+              "prettyInformation" : "Data modeling",
+              "confidence" : 1.6504801341633298E-4
+            }, {
+              "value" : "Transfer",
+              "prettyInformation" : "Transfer",
+              "confidence" : 1.1885373486178774E-4
+            }, {
+              "value" : "SQL",
+              "prettyInformation" : "SQL",
+              "confidence" : 6.636106382328249E-5
+            } ],
+            "shortInfo" : "Topic Hypotheses",
+            "hypothesesRange" : "INPUT",
+            "elementOfHypotheses" : null,
+            "onlyOneHypothesisValid" : false
+          }
+        } ]
+      }, {
+        "hypotheses" : [ {
+          "hypotheses" : [ {
+            "ontologyPath" : "src/main/resources/ontology-selector/robot.owl",
+            "description" : "http://www.semanticweb.org/roboapibase",
+            "value" : "http://www.semanticweb.org/roboapibase",
+            "prettyInformation" : "http://www.semanticweb.org/roboapibase",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/virtual_assistant.owl",
+            "description" : "http://www.semanticweb.org/virtual_assistent",
+            "value" : "http://www.semanticweb.org/virtual_assistent",
+            "prettyInformation" : "http://www.semanticweb.org/virtual_assistent",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/lego_mindstorm.owl",
+            "description" : "http://www.semanticweb.org/actor_lego_mindstorm",
+            "value" : "http://www.semanticweb.org/actor_lego_mindstorm",
+            "prettyInformation" : "http://www.semanticweb.org/actor_lego_mindstorm",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/drone.owl",
+            "description" : "http://www.semanticweb.org/actor_drone",
+            "value" : "http://www.semanticweb.org/actor_drone",
+            "prettyInformation" : "http://www.semanticweb.org/actor_drone",
+            "confidence" : 0.0
+          } ],
+          "shortInfo" : "OntologyType: ACTOR",
+          "hypothesesRange" : "INPUT",
+          "elementOfHypotheses" : null,
+          "onlyOneHypothesisValid" : false
+        }, {
+          "hypotheses" : [ {
+            "ontologyPath" : "src/main/resources/ontology-selector/garden.owl",
+            "description" : "http://www.semanticweb.org/environment_garden",
+            "value" : "http://www.semanticweb.org/environment_garden",
+            "prettyInformation" : "http://www.semanticweb.org/environment_garden",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/kitchen.owl",
+            "description" : "http://www.semanticweb.org/environment_kitchen",
+            "value" : "http://www.semanticweb.org/environment_kitchen",
+            "prettyInformation" : "http://www.semanticweb.org/environment_kitchen",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/bar.owl",
+            "description" : "http://www.semanticweb.org/environment_bar",
+            "value" : "http://www.semanticweb.org/environment_bar",
+            "prettyInformation" : "http://www.semanticweb.org/environment_bar",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/laundry.owl",
+            "description" : "http://www.semanticweb.org/environment_laundry",
+            "value" : "http://www.semanticweb.org/environment_laundry",
+            "prettyInformation" : "http://www.semanticweb.org/environment_laundry",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/music.owl",
+            "description" : "http://www.semanticweb.org/environment_music",
+            "value" : "http://www.semanticweb.org/environment_music",
+            "prettyInformation" : "http://www.semanticweb.org/environment_music",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/bedroom.owl",
+            "description" : "http://www.semanticweb.org/environment_bedroom",
+            "value" : "http://www.semanticweb.org/environment_bedroom",
+            "prettyInformation" : "http://www.semanticweb.org/environment_bedroom",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/heating.owl",
+            "description" : "http://www.semanticweb.org/environment_heating",
+            "value" : "http://www.semanticweb.org/environment_heating",
+            "prettyInformation" : "http://www.semanticweb.org/environment_heating",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/childrens_room.owl",
+            "description" : "http://www.semanticweb.org/environment_childrens_room",
+            "value" : "http://www.semanticweb.org/environment_childrens_room",
+            "prettyInformation" : "http://www.semanticweb.org/environment_childrens_room",
+            "confidence" : 0.0
+          } ],
+          "shortInfo" : "OntologyType: ENVIRONMENT",
+          "hypothesesRange" : "INPUT",
+          "elementOfHypotheses" : null,
+          "onlyOneHypothesisValid" : false
+        } ],
+        "id" : "OntologySelectorHypothesisSpec-5",
+        "children" : [ ],
+        "agent" : "OntologySelectorHypothesisSpec",
+        "selectionsFromBefore" : [ {
+          "selectedHypotheses" : [ {
+            "value" : "Transfer",
+            "prettyInformation" : "Transfer",
+            "confidence" : 1.1885373486178774E-4
+          }, {
+            "value" : "SQL",
+            "prettyInformation" : "SQL",
+            "confidence" : 6.636106382328249E-5
+          } ],
+          "allHypotheses" : {
+            "hypotheses" : [ {
+              "value" : "Marriage",
+              "prettyInformation" : "Marriage",
+              "confidence" : 2.1390361123476272E-4
+            }, {
+              "value" : "Data modeling",
+              "prettyInformation" : "Data modeling",
+              "confidence" : 1.6504801341633298E-4
+            }, {
+              "value" : "Transfer",
+              "prettyInformation" : "Transfer",
+              "confidence" : 1.1885373486178774E-4
+            }, {
+              "value" : "SQL",
+              "prettyInformation" : "SQL",
+              "confidence" : 6.636106382328249E-5
+            } ],
+            "shortInfo" : "Topic Hypotheses",
+            "hypothesesRange" : "INPUT",
+            "elementOfHypotheses" : null,
+            "onlyOneHypothesisValid" : false
+          }
+        } ]
+      } ],
+      "agent" : "TopicExtractionHypothesisSpec",
+      "selectionsFromBefore" : [ {
+        "selectedHypotheses" : [ {
+          "value" : "table (database)",
+          "prettyInformation" : "Hypothesis [value=table (database), score=-298.9855779391914]",
+          "confidence" : -298.9855779391914
+        } ],
+        "allHypotheses" : {
+          "hypotheses" : [ {
+            "value" : "table (furniture)",
+            "prettyInformation" : "Hypothesis [value=table (furniture), score=-287.3093871668294]",
+            "confidence" : -287.3093871668294
+          }, {
+            "value" : "table (database)",
+            "prettyInformation" : "Hypothesis [value=table (database), score=-298.9855779391914]",
+            "confidence" : -298.9855779391914
+          }, {
+            "value" : "table (information)",
+            "prettyInformation" : "Hypothesis [value=table (information), score=-309.5942984089885]",
+            "confidence" : -309.5942984089885
+          }, {
+            "value" : "table (parliamentary procedure)",
+            "prettyInformation" : "Hypothesis [value=table (parliamentary procedure), score=-343.3749508963435]",
+            "confidence" : -343.3749508963435
+          }, {
+            "value" : "table grape",
+            "prettyInformation" : "Hypothesis [value=table grape, score=-352.5698121241313]",
+            "confidence" : -352.5698121241313
+          } ],
+          "onlyOneHypothesisValid" : true,
+          "hypothesesRange" : "ELEMENT",
+          "elementOfHypotheses" : "table",
+          "shortInfo" : "table"
+        }
+      }, {
+        "selectedHypotheses" : [ {
+          "value" : "dowry",
+          "prettyInformation" : "Hypothesis [value=dowry, score=-416.22535749721567]",
+          "confidence" : -416.22535749721567
+        } ],
+        "allHypotheses" : {
+          "hypotheses" : [ {
+            "value" : "beer",
+            "prettyInformation" : "Hypothesis [value=beer, score=-284.9240818858625]",
+            "confidence" : -284.9240818858625
+          }, {
+            "value" : "dowry",
+            "prettyInformation" : "Hypothesis [value=dowry, score=-416.22535749721567]",
+            "confidence" : -416.22535749721567
+          }, {
+            "value" : "wheat beer",
+            "prettyInformation" : "Hypothesis [value=wheat beer, score=-422.2375524367763]",
+            "confidence" : -422.2375524367763
+          }, {
+            "value" : "picnic",
+            "prettyInformation" : "Hypothesis [value=picnic, score=-422.530451556563]",
+            "confidence" : -422.530451556563
+          }, {
+            "value" : "lawsuit",
+            "prettyInformation" : "Hypothesis [value=lawsuit, score=-423.5862572718291]",
+            "confidence" : -423.5862572718291
+          } ],
+          "onlyOneHypothesisValid" : true,
+          "hypothesesRange" : "ELEMENT",
+          "elementOfHypotheses" : "beer",
+          "shortInfo" : "beer"
+        }
+      } ]
+    }, {
+      "hypotheses" : [ {
+        "hypotheses" : [ {
+          "value" : "Eating parties",
+          "prettyInformation" : "Eating parties",
+          "confidence" : 2.373102672137586E-4
+        }, {
+          "value" : "Leisure",
+          "prettyInformation" : "Leisure",
+          "confidence" : 1.0937852020176697E-4
+        }, {
+          "value" : "Verbs",
+          "prettyInformation" : "Verbs",
+          "confidence" : 7.67640423541082E-5
+        }, {
+          "value" : "Table (parliamentary procedure)",
+          "prettyInformation" : "Table (parliamentary procedure)",
+          "confidence" : 6.443245594687036E-5
+        } ],
+        "shortInfo" : "Topic Hypotheses",
+        "hypothesesRange" : "INPUT",
+        "elementOfHypotheses" : null,
+        "onlyOneHypothesisValid" : false
+      } ],
+      "id" : "TopicExtractionHypothesisSpec-3",
+      "children" : [ {
+        "hypotheses" : [ {
+          "hypotheses" : [ {
+            "ontologyPath" : "src/main/resources/ontology-selector/robot.owl",
+            "description" : "http://www.semanticweb.org/roboapibase",
+            "value" : "http://www.semanticweb.org/roboapibase",
+            "prettyInformation" : "http://www.semanticweb.org/roboapibase",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/virtual_assistant.owl",
+            "description" : "http://www.semanticweb.org/virtual_assistent",
+            "value" : "http://www.semanticweb.org/virtual_assistent",
+            "prettyInformation" : "http://www.semanticweb.org/virtual_assistent",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/lego_mindstorm.owl",
+            "description" : "http://www.semanticweb.org/actor_lego_mindstorm",
+            "value" : "http://www.semanticweb.org/actor_lego_mindstorm",
+            "prettyInformation" : "http://www.semanticweb.org/actor_lego_mindstorm",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/drone.owl",
+            "description" : "http://www.semanticweb.org/actor_drone",
+            "value" : "http://www.semanticweb.org/actor_drone",
+            "prettyInformation" : "http://www.semanticweb.org/actor_drone",
+            "confidence" : 0.0
+          } ],
+          "shortInfo" : "OntologyType: ACTOR",
+          "hypothesesRange" : "INPUT",
+          "elementOfHypotheses" : null,
+          "onlyOneHypothesisValid" : false
+        }, {
+          "hypotheses" : [ {
+            "ontologyPath" : "src/main/resources/ontology-selector/music.owl",
+            "description" : "http://www.semanticweb.org/environment_music",
+            "value" : "http://www.semanticweb.org/environment_music",
+            "prettyInformation" : "http://www.semanticweb.org/environment_music",
+            "confidence" : 0.05555555555555555
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/garden.owl",
+            "description" : "http://www.semanticweb.org/environment_garden",
+            "value" : "http://www.semanticweb.org/environment_garden",
+            "prettyInformation" : "http://www.semanticweb.org/environment_garden",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/kitchen.owl",
+            "description" : "http://www.semanticweb.org/environment_kitchen",
+            "value" : "http://www.semanticweb.org/environment_kitchen",
+            "prettyInformation" : "http://www.semanticweb.org/environment_kitchen",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/bar.owl",
+            "description" : "http://www.semanticweb.org/environment_bar",
+            "value" : "http://www.semanticweb.org/environment_bar",
+            "prettyInformation" : "http://www.semanticweb.org/environment_bar",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/laundry.owl",
+            "description" : "http://www.semanticweb.org/environment_laundry",
+            "value" : "http://www.semanticweb.org/environment_laundry",
+            "prettyInformation" : "http://www.semanticweb.org/environment_laundry",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/bedroom.owl",
+            "description" : "http://www.semanticweb.org/environment_bedroom",
+            "value" : "http://www.semanticweb.org/environment_bedroom",
+            "prettyInformation" : "http://www.semanticweb.org/environment_bedroom",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/heating.owl",
+            "description" : "http://www.semanticweb.org/environment_heating",
+            "value" : "http://www.semanticweb.org/environment_heating",
+            "prettyInformation" : "http://www.semanticweb.org/environment_heating",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/childrens_room.owl",
+            "description" : "http://www.semanticweb.org/environment_childrens_room",
+            "value" : "http://www.semanticweb.org/environment_childrens_room",
+            "prettyInformation" : "http://www.semanticweb.org/environment_childrens_room",
+            "confidence" : 0.0
+          } ],
+          "shortInfo" : "OntologyType: ENVIRONMENT",
+          "hypothesesRange" : "INPUT",
+          "elementOfHypotheses" : null,
+          "onlyOneHypothesisValid" : false
+        } ],
+        "id" : "OntologySelectorHypothesisSpec-9",
+        "children" : [ ],
+        "agent" : "OntologySelectorHypothesisSpec",
+        "selectionsFromBefore" : [ {
+          "selectedHypotheses" : [ {
+            "value" : "Eating parties",
+            "prettyInformation" : "Eating parties",
+            "confidence" : 2.373102672137586E-4
+          }, {
+            "value" : "Leisure",
+            "prettyInformation" : "Leisure",
+            "confidence" : 1.0937852020176697E-4
+          }, {
+            "value" : "Verbs",
+            "prettyInformation" : "Verbs",
+            "confidence" : 7.67640423541082E-5
+          } ],
+          "allHypotheses" : {
+            "hypotheses" : [ {
+              "value" : "Eating parties",
+              "prettyInformation" : "Eating parties",
+              "confidence" : 2.373102672137586E-4
+            }, {
+              "value" : "Leisure",
+              "prettyInformation" : "Leisure",
+              "confidence" : 1.0937852020176697E-4
+            }, {
+              "value" : "Verbs",
+              "prettyInformation" : "Verbs",
+              "confidence" : 7.67640423541082E-5
+            }, {
+              "value" : "Table (parliamentary procedure)",
+              "prettyInformation" : "Table (parliamentary procedure)",
+              "confidence" : 6.443245594687036E-5
+            } ],
+            "shortInfo" : "Topic Hypotheses",
+            "hypothesesRange" : "INPUT",
+            "elementOfHypotheses" : null,
+            "onlyOneHypothesisValid" : false
+          }
+        } ]
+      }, {
+        "hypotheses" : [ {
+          "hypotheses" : [ {
+            "ontologyPath" : "src/main/resources/ontology-selector/robot.owl",
+            "description" : "http://www.semanticweb.org/roboapibase",
+            "value" : "http://www.semanticweb.org/roboapibase",
+            "prettyInformation" : "http://www.semanticweb.org/roboapibase",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/virtual_assistant.owl",
+            "description" : "http://www.semanticweb.org/virtual_assistent",
+            "value" : "http://www.semanticweb.org/virtual_assistent",
+            "prettyInformation" : "http://www.semanticweb.org/virtual_assistent",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/lego_mindstorm.owl",
+            "description" : "http://www.semanticweb.org/actor_lego_mindstorm",
+            "value" : "http://www.semanticweb.org/actor_lego_mindstorm",
+            "prettyInformation" : "http://www.semanticweb.org/actor_lego_mindstorm",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/drone.owl",
+            "description" : "http://www.semanticweb.org/actor_drone",
+            "value" : "http://www.semanticweb.org/actor_drone",
+            "prettyInformation" : "http://www.semanticweb.org/actor_drone",
+            "confidence" : 0.0
+          } ],
+          "shortInfo" : "OntologyType: ACTOR",
+          "hypothesesRange" : "INPUT",
+          "elementOfHypotheses" : null,
+          "onlyOneHypothesisValid" : false
+        }, {
+          "hypotheses" : [ {
+            "ontologyPath" : "src/main/resources/ontology-selector/music.owl",
+            "description" : "http://www.semanticweb.org/environment_music",
+            "value" : "http://www.semanticweb.org/environment_music",
+            "prettyInformation" : "http://www.semanticweb.org/environment_music",
+            "confidence" : 0.05555555555555555
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/kitchen.owl",
+            "description" : "http://www.semanticweb.org/environment_kitchen",
+            "value" : "http://www.semanticweb.org/environment_kitchen",
+            "prettyInformation" : "http://www.semanticweb.org/environment_kitchen",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/garden.owl",
+            "description" : "http://www.semanticweb.org/environment_garden",
+            "value" : "http://www.semanticweb.org/environment_garden",
+            "prettyInformation" : "http://www.semanticweb.org/environment_garden",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/bar.owl",
+            "description" : "http://www.semanticweb.org/environment_bar",
+            "value" : "http://www.semanticweb.org/environment_bar",
+            "prettyInformation" : "http://www.semanticweb.org/environment_bar",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/laundry.owl",
+            "description" : "http://www.semanticweb.org/environment_laundry",
+            "value" : "http://www.semanticweb.org/environment_laundry",
+            "prettyInformation" : "http://www.semanticweb.org/environment_laundry",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/bedroom.owl",
+            "description" : "http://www.semanticweb.org/environment_bedroom",
+            "value" : "http://www.semanticweb.org/environment_bedroom",
+            "prettyInformation" : "http://www.semanticweb.org/environment_bedroom",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/heating.owl",
+            "description" : "http://www.semanticweb.org/environment_heating",
+            "value" : "http://www.semanticweb.org/environment_heating",
+            "prettyInformation" : "http://www.semanticweb.org/environment_heating",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/childrens_room.owl",
+            "description" : "http://www.semanticweb.org/environment_childrens_room",
+            "value" : "http://www.semanticweb.org/environment_childrens_room",
+            "prettyInformation" : "http://www.semanticweb.org/environment_childrens_room",
+            "confidence" : 0.0
+          } ],
+          "shortInfo" : "OntologyType: ENVIRONMENT",
+          "hypothesesRange" : "INPUT",
+          "elementOfHypotheses" : null,
+          "onlyOneHypothesisValid" : false
+        } ],
+        "id" : "OntologySelectorHypothesisSpec-10",
+        "children" : [ ],
+        "agent" : "OntologySelectorHypothesisSpec",
+        "selectionsFromBefore" : [ {
+          "selectedHypotheses" : [ {
+            "value" : "Leisure",
+            "prettyInformation" : "Leisure",
+            "confidence" : 1.0937852020176697E-4
+          }, {
+            "value" : "Verbs",
+            "prettyInformation" : "Verbs",
+            "confidence" : 7.67640423541082E-5
+          }, {
+            "value" : "Table (parliamentary procedure)",
+            "prettyInformation" : "Table (parliamentary procedure)",
+            "confidence" : 6.443245594687036E-5
+          } ],
+          "allHypotheses" : {
+            "hypotheses" : [ {
+              "value" : "Eating parties",
+              "prettyInformation" : "Eating parties",
+              "confidence" : 2.373102672137586E-4
+            }, {
+              "value" : "Leisure",
+              "prettyInformation" : "Leisure",
+              "confidence" : 1.0937852020176697E-4
+            }, {
+              "value" : "Verbs",
+              "prettyInformation" : "Verbs",
+              "confidence" : 7.67640423541082E-5
+            }, {
+              "value" : "Table (parliamentary procedure)",
+              "prettyInformation" : "Table (parliamentary procedure)",
+              "confidence" : 6.443245594687036E-5
+            } ],
+            "shortInfo" : "Topic Hypotheses",
+            "hypothesesRange" : "INPUT",
+            "elementOfHypotheses" : null,
+            "onlyOneHypothesisValid" : false
+          }
+        } ]
+      }, {
+        "hypotheses" : [ {
+          "hypotheses" : [ {
+            "ontologyPath" : "src/main/resources/ontology-selector/robot.owl",
+            "description" : "http://www.semanticweb.org/roboapibase",
+            "value" : "http://www.semanticweb.org/roboapibase",
+            "prettyInformation" : "http://www.semanticweb.org/roboapibase",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/virtual_assistant.owl",
+            "description" : "http://www.semanticweb.org/virtual_assistent",
+            "value" : "http://www.semanticweb.org/virtual_assistent",
+            "prettyInformation" : "http://www.semanticweb.org/virtual_assistent",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/lego_mindstorm.owl",
+            "description" : "http://www.semanticweb.org/actor_lego_mindstorm",
+            "value" : "http://www.semanticweb.org/actor_lego_mindstorm",
+            "prettyInformation" : "http://www.semanticweb.org/actor_lego_mindstorm",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/drone.owl",
+            "description" : "http://www.semanticweb.org/actor_drone",
+            "value" : "http://www.semanticweb.org/actor_drone",
+            "prettyInformation" : "http://www.semanticweb.org/actor_drone",
+            "confidence" : 0.0
+          } ],
+          "shortInfo" : "OntologyType: ACTOR",
+          "hypothesesRange" : "INPUT",
+          "elementOfHypotheses" : null,
+          "onlyOneHypothesisValid" : false
+        }, {
+          "hypotheses" : [ {
+            "ontologyPath" : "src/main/resources/ontology-selector/kitchen.owl",
+            "description" : "http://www.semanticweb.org/environment_kitchen",
+            "value" : "http://www.semanticweb.org/environment_kitchen",
+            "prettyInformation" : "http://www.semanticweb.org/environment_kitchen",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/garden.owl",
+            "description" : "http://www.semanticweb.org/environment_garden",
+            "value" : "http://www.semanticweb.org/environment_garden",
+            "prettyInformation" : "http://www.semanticweb.org/environment_garden",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/bar.owl",
+            "description" : "http://www.semanticweb.org/environment_bar",
+            "value" : "http://www.semanticweb.org/environment_bar",
+            "prettyInformation" : "http://www.semanticweb.org/environment_bar",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/laundry.owl",
+            "description" : "http://www.semanticweb.org/environment_laundry",
+            "value" : "http://www.semanticweb.org/environment_laundry",
+            "prettyInformation" : "http://www.semanticweb.org/environment_laundry",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/music.owl",
+            "description" : "http://www.semanticweb.org/environment_music",
+            "value" : "http://www.semanticweb.org/environment_music",
+            "prettyInformation" : "http://www.semanticweb.org/environment_music",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/bedroom.owl",
+            "description" : "http://www.semanticweb.org/environment_bedroom",
+            "value" : "http://www.semanticweb.org/environment_bedroom",
+            "prettyInformation" : "http://www.semanticweb.org/environment_bedroom",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/heating.owl",
+            "description" : "http://www.semanticweb.org/environment_heating",
+            "value" : "http://www.semanticweb.org/environment_heating",
+            "prettyInformation" : "http://www.semanticweb.org/environment_heating",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/childrens_room.owl",
+            "description" : "http://www.semanticweb.org/environment_childrens_room",
+            "value" : "http://www.semanticweb.org/environment_childrens_room",
+            "prettyInformation" : "http://www.semanticweb.org/environment_childrens_room",
+            "confidence" : 0.0
+          } ],
+          "shortInfo" : "OntologyType: ENVIRONMENT",
+          "hypothesesRange" : "INPUT",
+          "elementOfHypotheses" : null,
+          "onlyOneHypothesisValid" : false
+        } ],
+        "id" : "OntologySelectorHypothesisSpec-11",
+        "children" : [ ],
+        "agent" : "OntologySelectorHypothesisSpec",
+        "selectionsFromBefore" : [ {
+          "selectedHypotheses" : [ {
+            "value" : "Verbs",
+            "prettyInformation" : "Verbs",
+            "confidence" : 7.67640423541082E-5
+          }, {
+            "value" : "Table (parliamentary procedure)",
+            "prettyInformation" : "Table (parliamentary procedure)",
+            "confidence" : 6.443245594687036E-5
+          } ],
+          "allHypotheses" : {
+            "hypotheses" : [ {
+              "value" : "Eating parties",
+              "prettyInformation" : "Eating parties",
+              "confidence" : 2.373102672137586E-4
+            }, {
+              "value" : "Leisure",
+              "prettyInformation" : "Leisure",
+              "confidence" : 1.0937852020176697E-4
+            }, {
+              "value" : "Verbs",
+              "prettyInformation" : "Verbs",
+              "confidence" : 7.67640423541082E-5
+            }, {
+              "value" : "Table (parliamentary procedure)",
+              "prettyInformation" : "Table (parliamentary procedure)",
+              "confidence" : 6.443245594687036E-5
+            } ],
+            "shortInfo" : "Topic Hypotheses",
+            "hypothesesRange" : "INPUT",
+            "elementOfHypotheses" : null,
+            "onlyOneHypothesisValid" : false
+          }
+        } ]
+      } ],
+      "agent" : "TopicExtractionHypothesisSpec",
+      "selectionsFromBefore" : [ {
+        "selectedHypotheses" : [ {
+          "value" : "table (parliamentary procedure)",
+          "prettyInformation" : "Hypothesis [value=table (parliamentary procedure), score=-343.3749508963435]",
+          "confidence" : -343.3749508963435
+        } ],
+        "allHypotheses" : {
+          "hypotheses" : [ {
+            "value" : "table (furniture)",
+            "prettyInformation" : "Hypothesis [value=table (furniture), score=-287.3093871668294]",
+            "confidence" : -287.3093871668294
+          }, {
+            "value" : "table (database)",
+            "prettyInformation" : "Hypothesis [value=table (database), score=-298.9855779391914]",
+            "confidence" : -298.9855779391914
+          }, {
+            "value" : "table (information)",
+            "prettyInformation" : "Hypothesis [value=table (information), score=-309.5942984089885]",
+            "confidence" : -309.5942984089885
+          }, {
+            "value" : "table (parliamentary procedure)",
+            "prettyInformation" : "Hypothesis [value=table (parliamentary procedure), score=-343.3749508963435]",
+            "confidence" : -343.3749508963435
+          }, {
+            "value" : "table grape",
+            "prettyInformation" : "Hypothesis [value=table grape, score=-352.5698121241313]",
+            "confidence" : -352.5698121241313
+          } ],
+          "onlyOneHypothesisValid" : true,
+          "hypothesesRange" : "ELEMENT",
+          "elementOfHypotheses" : "table",
+          "shortInfo" : "table"
+        }
+      }, {
+        "selectedHypotheses" : [ {
+          "value" : "picnic",
+          "prettyInformation" : "Hypothesis [value=picnic, score=-422.530451556563]",
+          "confidence" : -422.530451556563
+        } ],
+        "allHypotheses" : {
+          "hypotheses" : [ {
+            "value" : "beer",
+            "prettyInformation" : "Hypothesis [value=beer, score=-284.9240818858625]",
+            "confidence" : -284.9240818858625
+          }, {
+            "value" : "dowry",
+            "prettyInformation" : "Hypothesis [value=dowry, score=-416.22535749721567]",
+            "confidence" : -416.22535749721567
+          }, {
+            "value" : "wheat beer",
+            "prettyInformation" : "Hypothesis [value=wheat beer, score=-422.2375524367763]",
+            "confidence" : -422.2375524367763
+          }, {
+            "value" : "picnic",
+            "prettyInformation" : "Hypothesis [value=picnic, score=-422.530451556563]",
+            "confidence" : -422.530451556563
+          }, {
+            "value" : "lawsuit",
+            "prettyInformation" : "Hypothesis [value=lawsuit, score=-423.5862572718291]",
+            "confidence" : -423.5862572718291
+          } ],
+          "onlyOneHypothesisValid" : true,
+          "hypothesesRange" : "ELEMENT",
+          "elementOfHypotheses" : "beer",
+          "shortInfo" : "beer"
+        }
+      } ]
+    }, {
+      "hypotheses" : [ {
+        "hypotheses" : [ {
+          "value" : "Lawsuits",
+          "prettyInformation" : "Lawsuits",
+          "confidence" : 2.3552620166458963E-4
+        }, {
+          "value" : "Lawsuit",
+          "prettyInformation" : "Lawsuit",
+          "confidence" : 1.5873278919905723E-4
+        }, {
+          "value" : "Table grape varieties",
+          "prettyInformation" : "Table grape varieties",
+          "confidence" : 1.2180175155118861E-4
+        }, {
+          "value" : "Grapes",
+          "prettyInformation" : "Grapes",
+          "confidence" : 7.326872070768519E-6
+        } ],
+        "shortInfo" : "Topic Hypotheses",
+        "hypothesesRange" : "INPUT",
+        "elementOfHypotheses" : null,
+        "onlyOneHypothesisValid" : false
+      } ],
+      "id" : "TopicExtractionHypothesisSpec-4",
+      "children" : [ {
+        "hypotheses" : [ {
+          "hypotheses" : [ {
+            "ontologyPath" : "src/main/resources/ontology-selector/robot.owl",
+            "description" : "http://www.semanticweb.org/roboapibase",
+            "value" : "http://www.semanticweb.org/roboapibase",
+            "prettyInformation" : "http://www.semanticweb.org/roboapibase",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/virtual_assistant.owl",
+            "description" : "http://www.semanticweb.org/virtual_assistent",
+            "value" : "http://www.semanticweb.org/virtual_assistent",
+            "prettyInformation" : "http://www.semanticweb.org/virtual_assistent",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/lego_mindstorm.owl",
+            "description" : "http://www.semanticweb.org/actor_lego_mindstorm",
+            "value" : "http://www.semanticweb.org/actor_lego_mindstorm",
+            "prettyInformation" : "http://www.semanticweb.org/actor_lego_mindstorm",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/drone.owl",
+            "description" : "http://www.semanticweb.org/actor_drone",
+            "value" : "http://www.semanticweb.org/actor_drone",
+            "prettyInformation" : "http://www.semanticweb.org/actor_drone",
+            "confidence" : 0.0
+          } ],
+          "shortInfo" : "OntologyType: ACTOR",
+          "hypothesesRange" : "INPUT",
+          "elementOfHypotheses" : null,
+          "onlyOneHypothesisValid" : false
+        }, {
+          "hypotheses" : [ {
+            "ontologyPath" : "src/main/resources/ontology-selector/garden.owl",
+            "description" : "http://www.semanticweb.org/environment_garden",
+            "value" : "http://www.semanticweb.org/environment_garden",
+            "prettyInformation" : "http://www.semanticweb.org/environment_garden",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/kitchen.owl",
+            "description" : "http://www.semanticweb.org/environment_kitchen",
+            "value" : "http://www.semanticweb.org/environment_kitchen",
+            "prettyInformation" : "http://www.semanticweb.org/environment_kitchen",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/bar.owl",
+            "description" : "http://www.semanticweb.org/environment_bar",
+            "value" : "http://www.semanticweb.org/environment_bar",
+            "prettyInformation" : "http://www.semanticweb.org/environment_bar",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/laundry.owl",
+            "description" : "http://www.semanticweb.org/environment_laundry",
+            "value" : "http://www.semanticweb.org/environment_laundry",
+            "prettyInformation" : "http://www.semanticweb.org/environment_laundry",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/music.owl",
+            "description" : "http://www.semanticweb.org/environment_music",
+            "value" : "http://www.semanticweb.org/environment_music",
+            "prettyInformation" : "http://www.semanticweb.org/environment_music",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/bedroom.owl",
+            "description" : "http://www.semanticweb.org/environment_bedroom",
+            "value" : "http://www.semanticweb.org/environment_bedroom",
+            "prettyInformation" : "http://www.semanticweb.org/environment_bedroom",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/heating.owl",
+            "description" : "http://www.semanticweb.org/environment_heating",
+            "value" : "http://www.semanticweb.org/environment_heating",
+            "prettyInformation" : "http://www.semanticweb.org/environment_heating",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/childrens_room.owl",
+            "description" : "http://www.semanticweb.org/environment_childrens_room",
+            "value" : "http://www.semanticweb.org/environment_childrens_room",
+            "prettyInformation" : "http://www.semanticweb.org/environment_childrens_room",
+            "confidence" : 0.0
+          } ],
+          "shortInfo" : "OntologyType: ENVIRONMENT",
+          "hypothesesRange" : "INPUT",
+          "elementOfHypotheses" : null,
+          "onlyOneHypothesisValid" : false
+        } ],
+        "id" : "OntologySelectorHypothesisSpec-14",
+        "children" : [ ],
+        "agent" : "OntologySelectorHypothesisSpec",
+        "selectionsFromBefore" : [ {
+          "selectedHypotheses" : [ {
+            "value" : "Table grape varieties",
+            "prettyInformation" : "Table grape varieties",
+            "confidence" : 1.2180175155118861E-4
+          }, {
+            "value" : "Grapes",
+            "prettyInformation" : "Grapes",
+            "confidence" : 7.326872070768519E-6
+          } ],
+          "allHypotheses" : {
+            "hypotheses" : [ {
+              "value" : "Lawsuits",
+              "prettyInformation" : "Lawsuits",
+              "confidence" : 2.3552620166458963E-4
+            }, {
+              "value" : "Lawsuit",
+              "prettyInformation" : "Lawsuit",
+              "confidence" : 1.5873278919905723E-4
+            }, {
+              "value" : "Table grape varieties",
+              "prettyInformation" : "Table grape varieties",
+              "confidence" : 1.2180175155118861E-4
+            }, {
+              "value" : "Grapes",
+              "prettyInformation" : "Grapes",
+              "confidence" : 7.326872070768519E-6
+            } ],
+            "shortInfo" : "Topic Hypotheses",
+            "hypothesesRange" : "INPUT",
+            "elementOfHypotheses" : null,
+            "onlyOneHypothesisValid" : false
+          }
+        } ]
+      }, {
+        "hypotheses" : [ {
+          "hypotheses" : [ {
+            "ontologyPath" : "src/main/resources/ontology-selector/robot.owl",
+            "description" : "http://www.semanticweb.org/roboapibase",
+            "value" : "http://www.semanticweb.org/roboapibase",
+            "prettyInformation" : "http://www.semanticweb.org/roboapibase",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/virtual_assistant.owl",
+            "description" : "http://www.semanticweb.org/virtual_assistent",
+            "value" : "http://www.semanticweb.org/virtual_assistent",
+            "prettyInformation" : "http://www.semanticweb.org/virtual_assistent",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/lego_mindstorm.owl",
+            "description" : "http://www.semanticweb.org/actor_lego_mindstorm",
+            "value" : "http://www.semanticweb.org/actor_lego_mindstorm",
+            "prettyInformation" : "http://www.semanticweb.org/actor_lego_mindstorm",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/drone.owl",
+            "description" : "http://www.semanticweb.org/actor_drone",
+            "value" : "http://www.semanticweb.org/actor_drone",
+            "prettyInformation" : "http://www.semanticweb.org/actor_drone",
+            "confidence" : 0.0
+          } ],
+          "shortInfo" : "OntologyType: ACTOR",
+          "hypothesesRange" : "INPUT",
+          "elementOfHypotheses" : null,
+          "onlyOneHypothesisValid" : false
+        }, {
+          "hypotheses" : [ {
+            "ontologyPath" : "src/main/resources/ontology-selector/kitchen.owl",
+            "description" : "http://www.semanticweb.org/environment_kitchen",
+            "value" : "http://www.semanticweb.org/environment_kitchen",
+            "prettyInformation" : "http://www.semanticweb.org/environment_kitchen",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/garden.owl",
+            "description" : "http://www.semanticweb.org/environment_garden",
+            "value" : "http://www.semanticweb.org/environment_garden",
+            "prettyInformation" : "http://www.semanticweb.org/environment_garden",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/bar.owl",
+            "description" : "http://www.semanticweb.org/environment_bar",
+            "value" : "http://www.semanticweb.org/environment_bar",
+            "prettyInformation" : "http://www.semanticweb.org/environment_bar",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/laundry.owl",
+            "description" : "http://www.semanticweb.org/environment_laundry",
+            "value" : "http://www.semanticweb.org/environment_laundry",
+            "prettyInformation" : "http://www.semanticweb.org/environment_laundry",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/music.owl",
+            "description" : "http://www.semanticweb.org/environment_music",
+            "value" : "http://www.semanticweb.org/environment_music",
+            "prettyInformation" : "http://www.semanticweb.org/environment_music",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/bedroom.owl",
+            "description" : "http://www.semanticweb.org/environment_bedroom",
+            "value" : "http://www.semanticweb.org/environment_bedroom",
+            "prettyInformation" : "http://www.semanticweb.org/environment_bedroom",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/heating.owl",
+            "description" : "http://www.semanticweb.org/environment_heating",
+            "value" : "http://www.semanticweb.org/environment_heating",
+            "prettyInformation" : "http://www.semanticweb.org/environment_heating",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/childrens_room.owl",
+            "description" : "http://www.semanticweb.org/environment_childrens_room",
+            "value" : "http://www.semanticweb.org/environment_childrens_room",
+            "prettyInformation" : "http://www.semanticweb.org/environment_childrens_room",
+            "confidence" : 0.0
+          } ],
+          "shortInfo" : "OntologyType: ENVIRONMENT",
+          "hypothesesRange" : "INPUT",
+          "elementOfHypotheses" : null,
+          "onlyOneHypothesisValid" : false
+        } ],
+        "id" : "OntologySelectorHypothesisSpec-13",
+        "children" : [ ],
+        "agent" : "OntologySelectorHypothesisSpec",
+        "selectionsFromBefore" : [ {
+          "selectedHypotheses" : [ {
+            "value" : "Lawsuit",
+            "prettyInformation" : "Lawsuit",
+            "confidence" : 1.5873278919905723E-4
+          }, {
+            "value" : "Table grape varieties",
+            "prettyInformation" : "Table grape varieties",
+            "confidence" : 1.2180175155118861E-4
+          }, {
+            "value" : "Grapes",
+            "prettyInformation" : "Grapes",
+            "confidence" : 7.326872070768519E-6
+          } ],
+          "allHypotheses" : {
+            "hypotheses" : [ {
+              "value" : "Lawsuits",
+              "prettyInformation" : "Lawsuits",
+              "confidence" : 2.3552620166458963E-4
+            }, {
+              "value" : "Lawsuit",
+              "prettyInformation" : "Lawsuit",
+              "confidence" : 1.5873278919905723E-4
+            }, {
+              "value" : "Table grape varieties",
+              "prettyInformation" : "Table grape varieties",
+              "confidence" : 1.2180175155118861E-4
+            }, {
+              "value" : "Grapes",
+              "prettyInformation" : "Grapes",
+              "confidence" : 7.326872070768519E-6
+            } ],
+            "shortInfo" : "Topic Hypotheses",
+            "hypothesesRange" : "INPUT",
+            "elementOfHypotheses" : null,
+            "onlyOneHypothesisValid" : false
+          }
+        } ]
+      }, {
+        "hypotheses" : [ {
+          "hypotheses" : [ {
+            "ontologyPath" : "src/main/resources/ontology-selector/robot.owl",
+            "description" : "http://www.semanticweb.org/roboapibase",
+            "value" : "http://www.semanticweb.org/roboapibase",
+            "prettyInformation" : "http://www.semanticweb.org/roboapibase",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/virtual_assistant.owl",
+            "description" : "http://www.semanticweb.org/virtual_assistent",
+            "value" : "http://www.semanticweb.org/virtual_assistent",
+            "prettyInformation" : "http://www.semanticweb.org/virtual_assistent",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/lego_mindstorm.owl",
+            "description" : "http://www.semanticweb.org/actor_lego_mindstorm",
+            "value" : "http://www.semanticweb.org/actor_lego_mindstorm",
+            "prettyInformation" : "http://www.semanticweb.org/actor_lego_mindstorm",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/drone.owl",
+            "description" : "http://www.semanticweb.org/actor_drone",
+            "value" : "http://www.semanticweb.org/actor_drone",
+            "prettyInformation" : "http://www.semanticweb.org/actor_drone",
+            "confidence" : 0.0
+          } ],
+          "shortInfo" : "OntologyType: ACTOR",
+          "hypothesesRange" : "INPUT",
+          "elementOfHypotheses" : null,
+          "onlyOneHypothesisValid" : false
+        }, {
+          "hypotheses" : [ {
+            "ontologyPath" : "src/main/resources/ontology-selector/garden.owl",
+            "description" : "http://www.semanticweb.org/environment_garden",
+            "value" : "http://www.semanticweb.org/environment_garden",
+            "prettyInformation" : "http://www.semanticweb.org/environment_garden",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/kitchen.owl",
+            "description" : "http://www.semanticweb.org/environment_kitchen",
+            "value" : "http://www.semanticweb.org/environment_kitchen",
+            "prettyInformation" : "http://www.semanticweb.org/environment_kitchen",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/bar.owl",
+            "description" : "http://www.semanticweb.org/environment_bar",
+            "value" : "http://www.semanticweb.org/environment_bar",
+            "prettyInformation" : "http://www.semanticweb.org/environment_bar",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/laundry.owl",
+            "description" : "http://www.semanticweb.org/environment_laundry",
+            "value" : "http://www.semanticweb.org/environment_laundry",
+            "prettyInformation" : "http://www.semanticweb.org/environment_laundry",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/music.owl",
+            "description" : "http://www.semanticweb.org/environment_music",
+            "value" : "http://www.semanticweb.org/environment_music",
+            "prettyInformation" : "http://www.semanticweb.org/environment_music",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/bedroom.owl",
+            "description" : "http://www.semanticweb.org/environment_bedroom",
+            "value" : "http://www.semanticweb.org/environment_bedroom",
+            "prettyInformation" : "http://www.semanticweb.org/environment_bedroom",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/heating.owl",
+            "description" : "http://www.semanticweb.org/environment_heating",
+            "value" : "http://www.semanticweb.org/environment_heating",
+            "prettyInformation" : "http://www.semanticweb.org/environment_heating",
+            "confidence" : 0.0
+          }, {
+            "ontologyPath" : "src/main/resources/ontology-selector/childrens_room.owl",
+            "description" : "http://www.semanticweb.org/environment_childrens_room",
+            "value" : "http://www.semanticweb.org/environment_childrens_room",
+            "prettyInformation" : "http://www.semanticweb.org/environment_childrens_room",
+            "confidence" : 0.0
+          } ],
+          "shortInfo" : "OntologyType: ENVIRONMENT",
+          "hypothesesRange" : "INPUT",
+          "elementOfHypotheses" : null,
+          "onlyOneHypothesisValid" : false
+        } ],
+        "id" : "OntologySelectorHypothesisSpec-12",
+        "children" : [ ],
+        "agent" : "OntologySelectorHypothesisSpec",
+        "selectionsFromBefore" : [ {
+          "selectedHypotheses" : [ {
+            "value" : "Lawsuits",
+            "prettyInformation" : "Lawsuits",
+            "confidence" : 2.3552620166458963E-4
+          }, {
+            "value" : "Lawsuit",
+            "prettyInformation" : "Lawsuit",
+            "confidence" : 1.5873278919905723E-4
+          }, {
+            "value" : "Table grape varieties",
+            "prettyInformation" : "Table grape varieties",
+            "confidence" : 1.2180175155118861E-4
+          } ],
+          "allHypotheses" : {
+            "hypotheses" : [ {
+              "value" : "Lawsuits",
+              "prettyInformation" : "Lawsuits",
+              "confidence" : 2.3552620166458963E-4
+            }, {
+              "value" : "Lawsuit",
+              "prettyInformation" : "Lawsuit",
+              "confidence" : 1.5873278919905723E-4
+            }, {
+              "value" : "Table grape varieties",
+              "prettyInformation" : "Table grape varieties",
+              "confidence" : 1.2180175155118861E-4
+            }, {
+              "value" : "Grapes",
+              "prettyInformation" : "Grapes",
+              "confidence" : 7.326872070768519E-6
+            } ],
+            "shortInfo" : "Topic Hypotheses",
+            "hypothesesRange" : "INPUT",
+            "elementOfHypotheses" : null,
+            "onlyOneHypothesisValid" : false
+          }
+        } ]
+      } ],
+      "agent" : "TopicExtractionHypothesisSpec",
+      "selectionsFromBefore" : [ {
+        "selectedHypotheses" : [ {
+          "value" : "table grape",
+          "prettyInformation" : "Hypothesis [value=table grape, score=-352.5698121241313]",
+          "confidence" : -352.5698121241313
+        } ],
+        "allHypotheses" : {
+          "hypotheses" : [ {
+            "value" : "table (furniture)",
+            "prettyInformation" : "Hypothesis [value=table (furniture), score=-287.3093871668294]",
+            "confidence" : -287.3093871668294
+          }, {
+            "value" : "table (database)",
+            "prettyInformation" : "Hypothesis [value=table (database), score=-298.9855779391914]",
+            "confidence" : -298.9855779391914
+          }, {
+            "value" : "table (information)",
+            "prettyInformation" : "Hypothesis [value=table (information), score=-309.5942984089885]",
+            "confidence" : -309.5942984089885
+          }, {
+            "value" : "table (parliamentary procedure)",
+            "prettyInformation" : "Hypothesis [value=table (parliamentary procedure), score=-343.3749508963435]",
+            "confidence" : -343.3749508963435
+          }, {
+            "value" : "table grape",
+            "prettyInformation" : "Hypothesis [value=table grape, score=-352.5698121241313]",
+            "confidence" : -352.5698121241313
+          } ],
+          "onlyOneHypothesisValid" : true,
+          "hypothesesRange" : "ELEMENT",
+          "elementOfHypotheses" : "table",
+          "shortInfo" : "table"
+        }
+      }, {
+        "selectedHypotheses" : [ {
+          "value" : "lawsuit",
+          "prettyInformation" : "Hypothesis [value=lawsuit, score=-423.5862572718291]",
+          "confidence" : -423.5862572718291
+        } ],
+        "allHypotheses" : {
+          "hypotheses" : [ {
+            "value" : "beer",
+            "prettyInformation" : "Hypothesis [value=beer, score=-284.9240818858625]",
+            "confidence" : -284.9240818858625
+          }, {
+            "value" : "dowry",
+            "prettyInformation" : "Hypothesis [value=dowry, score=-416.22535749721567]",
+            "confidence" : -416.22535749721567
+          }, {
+            "value" : "wheat beer",
+            "prettyInformation" : "Hypothesis [value=wheat beer, score=-422.2375524367763]",
+            "confidence" : -422.2375524367763
+          }, {
+            "value" : "picnic",
+            "prettyInformation" : "Hypothesis [value=picnic, score=-422.530451556563]",
+            "confidence" : -422.530451556563
+          }, {
+            "value" : "lawsuit",
+            "prettyInformation" : "Hypothesis [value=lawsuit, score=-423.5862572718291]",
+            "confidence" : -423.5862572718291
+          } ],
+          "onlyOneHypothesisValid" : true,
+          "hypothesesRange" : "ELEMENT",
+          "elementOfHypotheses" : "beer",
+          "shortInfo" : "beer"
+        }
+      } ]
+    } ],
+    "agent" : "WikiWSDHypothesisSpec",
+    "selectionsFromBefore" : null
+  }
+}

@@ -1,5 +1,6 @@
 package edu.kit.ipd.eagle.explorer;
 
+import java.awt.Dimension;
 import java.awt.GridBagConstraints;
 
 import javax.swing.JLabel;
@@ -26,6 +27,8 @@ import edu.kit.ipd.eagle.port.xplore.layer.ILayerEntry;
 public class ExplorationTreeListener implements TreeSelectionListener {
 
 	private JPanel dataPanel;
+	private JPanel treePanel;
+
 	private JTree tree;
 	private JLabel titleForData;
 
@@ -34,14 +37,16 @@ public class ExplorationTreeListener implements TreeSelectionListener {
 	 * provided tree.
 	 *
 	 * @param tree         the tree to listen on.
+	 * @param treePanel    the panel of the tree
 	 * @param dataPanel    the panel to provide the data for the selected element of
 	 *                     the tree
 	 * @param titleForData the title label to provide the name or other information
 	 *                     of the selected element
 	 */
-	public ExplorationTreeListener(JTree tree, JPanel dataPanel, JLabel titleForData) {
+	public ExplorationTreeListener(JTree tree, JPanel treePanel, JPanel dataPanel, JLabel titleForData) {
 		tree.addTreeSelectionListener(this);
 		this.tree = tree;
+		this.treePanel = treePanel;
 		this.dataPanel = dataPanel;
 		this.titleForData = titleForData;
 		this.renderDefault();
@@ -50,6 +55,8 @@ public class ExplorationTreeListener implements TreeSelectionListener {
 	@SuppressWarnings("unchecked")
 	@Override
 	public void valueChanged(TreeSelectionEvent e) {
+		this.treePanel.setPreferredSize(this.tree.getPreferredSize());
+
 		this.dataPanel.removeAll();
 
 		DefaultMutableTreeNode node = (DefaultMutableTreeNode) this.tree.getLastSelectedPathComponent();
@@ -102,6 +109,7 @@ public class ExplorationTreeListener implements TreeSelectionListener {
 
 	private void renderDefault() {
 		this.dataPanel.removeAll();
+		this.dataPanel.setPreferredSize(new Dimension());
 		this.titleForData.setText("Unknown Data");
 	}
 
@@ -114,6 +122,7 @@ public class ExplorationTreeListener implements TreeSelectionListener {
 		this.dataPanel.add(scrollPane, gbc);
 		this.dataPanel.doLayout();
 		this.dataPanel.repaint();
+		this.dataPanel.setPreferredSize(new Dimension(table.getPreferredSize().width + 5, table.getPreferredSize().height + 5));
 		((DefaultTableModel) table.getModel()).fireTableDataChanged();
 
 	}

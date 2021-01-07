@@ -41,6 +41,7 @@ public final class TreeBuilder {
 		GridBagConstraints gbc = new GridBagConstraints();
 		gbc.fill = GridBagConstraints.BOTH;
 		treePanel.add(tree, gbc);
+		treePanel.setPreferredSize(tree.getPreferredSize());
 		return tree;
 	}
 
