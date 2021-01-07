@@ -44,7 +44,7 @@ public final class MainFrame {
 	private JPanel dataPanel;
 	private JMenuItem load;
 	private JMenuItem exit;
-	private JTextArea inputText;
+	private JTextArea explorationId;
 
 	/**
 	 * Launch the application.
@@ -104,7 +104,7 @@ public final class MainFrame {
 	private void loadExploration(IExplorationResult result) {
 		JTree tree = TreeBuilder.buildTree(this.treePanel, result);
 		new ExplorationTreeListener(tree, this.dataPanel, this.titleForData);
-		this.inputText.setText(result.getId());
+		this.explorationId.setText(result.getId());
 	}
 
 	private void setToEmptyData() {
@@ -137,20 +137,20 @@ public final class MainFrame {
 		gblTreePanel.rowWeights = new double[] { 1.0 };
 		this.treePanel.setLayout(gblTreePanel);
 
-		this.inputText = new JTextArea();
-		this.inputText.setEnabled(false);
-		this.inputText.setLineWrap(true);
+		this.explorationId = new JTextArea();
+		this.explorationId.setEnabled(false);
+		this.explorationId.setLineWrap(true);
 
 		GridBagConstraints gbcInputText = new GridBagConstraints();
 		gbcInputText.insets = new Insets(0, 0, 5, 0);
 		gbcInputText.fill = GridBagConstraints.BOTH;
 		gbcInputText.gridx = 0;
 		gbcInputText.gridy = 1;
-		this.frame.getContentPane().add(new JScrollPane(this.inputText, ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED, ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER), gbcInputText);
-		this.inputText.setColumns(10);
+		this.frame.getContentPane().add(new JScrollPane(this.explorationId, ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED, ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER), gbcInputText);
+		this.explorationId.setColumns(10);
 
 		this.titleForData = new JLabel("");
-		this.titleForData.setFont(new Font("Tahoma", Font.PLAIN, 27));
+		this.titleForData.setFont(new Font("Tahoma", Font.PLAIN, 24));
 		GridBagConstraints gbcTitle = new GridBagConstraints();
 		gbcTitle.insets = new Insets(0, 0, 5, 0);
 		gbcTitle.gridx = 0;
