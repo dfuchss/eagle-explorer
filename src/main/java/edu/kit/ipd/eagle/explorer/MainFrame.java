@@ -72,14 +72,10 @@ public final class MainFrame {
 		}
 	}
 
-	/**
-	 * @wbp.parser.entryPoint
-	 */
-	public MainFrame() {
+	private MainFrame() {
 		this.initialize();
 		this.fc = new FileChooser(this.frame, "JSON", "json");
 		this.loadControllers();
-		this.loadFile(new File("D:\\Projects\\KIT\\eagle-explorer\\src\\test\\resources\\test-explore.json"));
 	}
 
 	private void loadControllers() {
