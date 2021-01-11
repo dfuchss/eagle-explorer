@@ -28,14 +28,14 @@ import edu.kit.ipd.eagle.port.xplore.IExplorationResult;
 import edu.kit.ipd.eagle.port.xplore.dto.ExplorationResultDTO;
 
 /**
- * The main class of the agent analysis explorer.
+ * The main class of the agent analysis (EAGLE) explorer.
  *
  * @author Dominik Fuchss
  *
  */
 public final class MainFrame {
 
-	private static final String NAME = "Agent Analysis Explorer";
+	private static final String NAME = "EAGLE Explorer";
 
 	private JFrame frame;
 	private FileChooser fc;
