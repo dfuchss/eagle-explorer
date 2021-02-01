@@ -18,8 +18,8 @@ import edu.kit.ipd.eagle.port.hypothesis.IHypothesesSet;
 import edu.kit.ipd.eagle.port.xplore.layer.ILayerEntry;
 
 /**
- * Realizes the {@link TreeSelectionListener} which will process the data that
- * will be shown by selecting elements of the exploration tree.
+ * Realizes the {@link TreeSelectionListener} which will process the data that will be shown by selecting elements of
+ * the exploration tree.
  *
  * @author Dominik Fuchss
  *
@@ -33,15 +33,12 @@ public class ExplorationTreeListener implements TreeSelectionListener {
 	private JLabel titleForData;
 
 	/**
-	 * Create the tree selection listener. This will register the listener to the
-	 * provided tree.
+	 * Create the tree selection listener. This will register the listener to the provided tree.
 	 *
 	 * @param tree         the tree to listen on.
 	 * @param treePanel    the panel of the tree
-	 * @param dataPanel    the panel to provide the data for the selected element of
-	 *                     the tree
-	 * @param titleForData the title label to provide the name or other information
-	 *                     of the selected element
+	 * @param dataPanel    the panel to provide the data for the selected element of the tree
+	 * @param titleForData the title label to provide the name or other information of the selected element
 	 */
 	public ExplorationTreeListener(JTree tree, JPanel treePanel, JPanel dataPanel, JLabel titleForData) {
 		tree.addTreeSelectionListener(this);
@@ -78,6 +75,7 @@ public class ExplorationTreeListener implements TreeSelectionListener {
 		this.titleForData.setText("Layer Entry " + step.getId());
 		Object[][] data = new Object[][] { //
 				new Object[] { "Agent", step.getAgent() }, //
+				new Object[] { "State of DS (before)", step.getStateRepresentationBeforeExecution() } //
 		};
 		this.createTable(new String[] { "Property", "Value" }, data);
 	}
