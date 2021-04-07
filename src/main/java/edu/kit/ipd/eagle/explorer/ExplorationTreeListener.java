@@ -83,7 +83,7 @@ public class ExplorationTreeListener implements TreeSelectionListener {
 	private void renderHypothesesSet(IHypothesesSet set) {
 		this.titleForData.setText("Hypotheses for " + set.getShortInfo());
 
-		var hypos = set.getHypotheses();
+		var hypos = set.getSortedHypotheses();
 
 		Object[][] data = new Object[hypos.size()][];
 		for (int i = 0; i < data.length; i++) {
